@@ -1,0 +1,12 @@
+#about {
+  max-width: 1300px;
+  margin: auto;
+
+  & h1 {
+    margin: 58px 0px 34px;
+  }
+
+  & p {
+    margin-bottom: 55px;
+  }
+}

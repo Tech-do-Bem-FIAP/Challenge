@@ -1,0 +1,34 @@
+#info {
+  max-width: 640px;
+
+  margin: 130px auto;
+  text-align: center;
+}
+
+#importantCard {
+  background-color: #d9d9d9;
+  padding: 64px 100px;
+
+  & #cardText {
+    max-width: 830px;
+    margin: auto 0 auto 30px;
+
+    & h2 {
+      margin-bottom: 10px;
+      font-size: 32px;
+      font-weight: 500;
+    }
+
+    & p {
+      color: #787878;
+    }
+  }
+}
+
+#motivation {
+  text-align: center;
+  margin: 260px auto;
+
+  color: #787878;
+  max-width: 640px;
+}
