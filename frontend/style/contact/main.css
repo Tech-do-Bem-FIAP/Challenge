@@ -22,3 +22,10 @@
 #contactBody {
   height: 100vh;
 }
+
+#footerContact {
+  position: fixed;
+  bottom: 0;
+
+  width: 100vw;
+}

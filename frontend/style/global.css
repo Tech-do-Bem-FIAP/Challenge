@@ -3,7 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 
-  font-family: "Roboto", sans-serif;
+  font-family: "Saira", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bruno Ace", sans-serif;
+}
+
+p {
+  color: #232323;
 }
 
 body {
