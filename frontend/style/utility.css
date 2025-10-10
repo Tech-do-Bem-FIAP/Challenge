@@ -44,6 +44,22 @@
   }
 }
 
+#loginBtn {
+  margin: 0 40px 0 auto;
+  & button {
+    padding: 14px 20px;
+
+    border: 2px solid #da345d;
+    border-radius: 50px;
+
+    background-color: #f1f1f1;
+
+    & a {
+      color: #da345d;
+    }
+  }
+}
+
 .bgHeader {
   position: fixed;
 
@@ -51,7 +67,7 @@
   left: 0;
 
   width: 100vw;
-  height: 160px;
+  height: 110px;
 
   backdrop-filter: blur(10px);
 }
@@ -132,8 +148,4 @@
 
 .flex-col {
   flex-direction: column;
-}
-
-.bg-color {
-  background-color: #f1f1f1;
 }
