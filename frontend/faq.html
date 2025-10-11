@@ -6,9 +6,9 @@
 
     <link rel="stylesheet" href="./style/index.css" />
 
-    <title>Contato</title>
+    <title>FAQ</title>
   </head>
-  <body id="contactBody" class="flex flex-col">
+  <body>
     <div class="bgHeader"></div>
 
     <header class="navigation flex">
@@ -22,8 +22,8 @@
         </a>
       </div>
 
-      <div>
-        <nav>
+      <div id="menu">
+        <nav class="flex">
           <ul class="flex">
             <li>
               <a href="./index.html">Home</a>
@@ -51,19 +51,59 @@
       </div>
     </header>
 
-    <main id="contactMain">
-      <section id="contactInfo">
-        <div>
-          <h2>Em caso de dúvidas ou para maiores informações</h2>
-          <h3>Entre em contato</h3>
+    <main id="questions">
+      <section>
+        <div id="">
+          <h2>Perguntas frequentes (FAQ)</h2>
         </div>
-        <div>
-          <p>E-mail: tdb.fiap@gmail.com</p>
+
+        <div id="freqAskQuestions">
+          <details class="questionCard">
+            <summary>Como realizo o cadastro de um novo paciente?</summary>
+            <p>
+              O cadastro é realizado através do ChatBot no canto inferior
+              direito da tela, sáo feitas perguntas sobre o novo paciente e ao
+              responder essas informações são automaticamente adicionados ao
+              banco de dados, ou da adição manual dentro do sistema clicando em
+              ”Adicionar novo paciente” na aba pacientes.
+            </p>
+          </details>
+
+          <details class="questionCard">
+            <summary>Como atualizar o cadastro de um paciente?</summary>
+            <p>
+              A atualização é feita dentro do setor pacientes, lá temos as
+              informações de todos os pacientes e se caso algum informação
+              precisa ser alterada ou até mesmo adicionada, é por lá que tais
+              informações devem ser feitas.
+            </p>
+          </details>
+
+          <details class="questionCard">
+            <summary>Como desligar um dentista?</summary>
+            <p>
+              O desligamento é feito através do cadastro do dentista, ao entrar
+              no setor de dentistas cadastrados (caso você seja funcionário TdB)
+              e verá 3 pontos ao lado do nome do colaborador, bastar clicar e
+              desligar o mesmo do sistema, assim todos os seus dados de login
+              serão deletados (mas os pacientes serão mantidos e devem ser
+              remanejados).
+            </p>
+          </details>
+
+          <details class="questionCard">
+            <summary>Como acesso meu acesso ao sistema?</summary>
+            <p>
+              O acesso é realizado através do login que foi recebido logo após o
+              seu cadastro na plataforma Tech do Bem, ao realizar o cadastro a
+              plataforma te enviará ao seu espaço dentro do sistema.
+            </p>
+          </details>
         </div>
       </section>
     </main>
 
-    <footer id="footerContact" class="footerInfo">
+    <footer id="footerFaq" class="footerInfo">
       <section id="navFooter" class="flex">
         <div>
           <a href="./index.html">

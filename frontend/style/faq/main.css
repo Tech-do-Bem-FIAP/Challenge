@@ -1,0 +1,30 @@
+#questions {
+  margin: auto 64px;
+
+  .questionCard {
+    margin-block: 60px;
+
+    & summary {
+      padding: 20px;
+      margin-top: 16px;
+
+      background-color: #641226;
+      color: #f1f1f1;
+
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+
+      cursor: pointer;
+    }
+
+    & p {
+      padding: 20px;
+
+      background-color: #641226;
+      color: #f1f1f1;
+
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+  }
+}
