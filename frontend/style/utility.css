@@ -2,7 +2,7 @@
   position: sticky;
   top: 60px;
 
-  filter: drop-shadow(-6px 7px 15px #000000);
+  filter: drop-shadow(-1px 3px 7px #000000);
 
   gap: 40px;
   align-items: center;
@@ -125,13 +125,45 @@
   }
 }
 
-& .title {
+.title {
   font-size: 94px;
   margin-bottom: 10px;
-  color: #da345d;
+  color: transparent;
+  background: -webkit-linear-gradient(#641226, #da345d);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-& .text {
+.title2 {
+  font-size: 48px;
+  background: -webkit-linear-gradient(#da345d, #f1f1f1);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title3 {
+  font-size: 32px;
+  background: -webkit-linear-gradient(#641226, #da345d);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.center-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-medium {
+    width: 400px;
+    height: 400px;
+}
+
+.text {
   font-size: 24px;
 }
 

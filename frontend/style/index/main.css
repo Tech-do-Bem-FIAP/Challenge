@@ -1,5 +1,5 @@
 #info {
-  max-width: 640px;
+  max-width: 800px;
 
   margin: 130px auto;
   text-align: center;
@@ -29,7 +29,6 @@
 
 .midCard {
   background-color: #30050e;
-
   margin-block: 10px;
 }
 
