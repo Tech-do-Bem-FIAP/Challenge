@@ -1,14 +1,17 @@
 #questions {
-    margin: 64px;
+  margin: 64px;
 }
 
 .questionCard {
-    padding: 8px;
-    background-color: #641226;
-    color: #F1F1F1;
+  padding: 30px;
+  background-color: #641226;
 
-    & p {
-        color: #f1f1f1;
-        padding: 8px;
-    }
+  color: #f1f1f1;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+
+  & p {
+    color: #f1f1f1;
+    padding: 8px;
+  }
 }
