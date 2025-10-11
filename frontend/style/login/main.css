@@ -1,0 +1,62 @@
+#logoLogin {
+  height: 100px;
+  width: 100px;
+}
+
+#loginPage {
+  display: flex;
+  margin: auto;
+
+  min-height: 100vh;
+  max-width: fit-content;
+  align-items: center;
+
+  gap: 300px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 40px;
+
+  gap: 10px;
+
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.49);
+
+  & input {
+    padding: 10px;
+
+    border: none;
+    border-radius: 10px;
+
+    min-width: 400px;
+  }
+
+  & button {
+    cursor: pointer;
+
+    padding: 10px;
+    margin-top: 50px;
+
+    background-color: #f1f1f1;
+    border: 2px solid #da345d;
+    border-radius: 10px;
+
+    color: #da345d;
+  }
+}
+
+#titleLogin {
+  font-size: 64px;
+  margin-bottom: 10px;
+  color: #da345d;
+}
+
+#textLogin {
+  font-weight: 500;
+}
