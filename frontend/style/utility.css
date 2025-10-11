@@ -23,10 +23,6 @@
 
     & li {
       border: 1px solid transparent;
-
-      & a {
-        color: #f1f1f1;
-      }
     }
 
     & li:hover {
@@ -94,10 +90,6 @@
 
       & li {
         border: 1px solid transparent;
-
-        & a {
-          color: #f1f1f1;
-        }
       }
 
       & li:hover {
@@ -141,7 +133,6 @@
 
 & .text {
   font-size: 24px;
-  color: #787878;
 }
 
 .flex {

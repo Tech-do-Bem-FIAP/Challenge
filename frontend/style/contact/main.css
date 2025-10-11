@@ -2,15 +2,7 @@
   max-width: 1300px;
   margin: 100px auto;
 
-  & h2 {
-  }
-
-  & h3 {
-    color: #787878;
-  }
-
   & p {
-    color: #787878;
     margin-top: 32px;
   }
 }
