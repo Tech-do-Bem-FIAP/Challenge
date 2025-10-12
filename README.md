@@ -8,6 +8,22 @@ Repositório da equipe Tech do Bem, formada pelos alunos:
 
 #### Link do projeto: https://github.com/Tech-do-Bem-FIAP/Challenge
 
+#### Links rápidos para cada entregável (basca clicar em alguma capa):
+
+<table style="border-collapse: collapse;">
+  <tr>
+    <td style="padding: 0;"><a href="https://github.com/Tech-do-Bem-FIAP/Challenge/tree/main/Software_Engineering_and_Business_Model"><img src="https://github.com/Tech-do-Bem-FIAP/Challenge/raw/main/Capas/Sprint_1/capa_sebm_page-0001.webp" alt="SEBM" width="250"></a></td>
+    <td style="padding: 0;"><a href="https://github.com/Tech-do-Bem-FIAP/Challenge/tree/main/Computational_Thinking_Using_Python"><img src="https://github.com/Tech-do-Bem-FIAP/Challenge/raw/main/Capas/Sprint_1/capa_python_page-0001.webp" alt="Python" width="250"></a></td>
+    <td style="padding: 0;"><a href="https://github.com/Tech-do-Bem-FIAP/Challenge/tree/main/Artificial_Intelligence_and_Chatbot"><img src="https://github.com/Tech-do-Bem-FIAP/Challenge/raw/main/Capas/Sprint_1/capa_chatbot_page-0001.webp" alt="Chatbot" width="250"></a></td>
+  </tr>
+  <tr>
+    <td style="padding: 0;"><a href="https://github.com/Tech-do-Bem-FIAP/Challenge/tree/main/Front-End_Design_Engineering"><img src="https://github.com/Tech-do-Bem-FIAP/Challenge/raw/main/Capas/Sprint_1/capa_frontend_page-0001.webp" alt="Front-End" width="250"></a></td>
+    <td style="padding: 0;"><a href="https://github.com/Tech-do-Bem-FIAP/Challenge/tree/main/Domain_Driven_Design_Using_Java"><img src="https://github.com/Tech-do-Bem-FIAP/Challenge/raw/main/Capas/Sprint_1/capa_java_page-0001.webp" alt="Java" width="250"></a></td>
+    <td style="padding: 0;"><a href="https://github.com/Tech-do-Bem-FIAP/Challenge/tree/main/Building_Relational_Database"><img src="https://github.com/Tech-do-Bem-FIAP/Challenge/raw/main/Capas/Sprint_1/capa_database_page-0001.webp" alt="Database" width="250"></a></td>
+  </tr>
+</table>
+
+
 # **Documentação do Projeto Frontend: Tech do Bem**
 
 ## **1. Visão Geral do Projeto**
