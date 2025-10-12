@@ -1,0 +1,16 @@
+#colaborator {
+  margin: 50px 64px;
+
+  .infoColaborator {
+    justify-content: center;
+
+    gap: 10px;
+    margin-inline: 10px;
+  }
+
+  #Lucas_Campanha {
+    justify-content: end;
+
+    margin-block: 100px;
+  }
+}

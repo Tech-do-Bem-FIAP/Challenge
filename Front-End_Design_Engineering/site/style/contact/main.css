@@ -1,0 +1,23 @@
+#contactInfo {
+  max-width: 1300px;
+  margin: 50px 64px;
+
+  & p {
+    margin-top: 12px;
+  }
+}
+
+#contactMain {
+  height: 100%;
+}
+
+#contactBody {
+  height: 100vh;
+}
+
+#footerContact {
+  position: fixed;
+  bottom: 0;
+
+  width: 100vw;
+}
