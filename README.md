@@ -8,7 +8,7 @@ Repositório da equipe Tech do Bem, formada pelos alunos:
 
 #### Link do projeto: https://github.com/Tech-do-Bem-FIAP/Challenge
 
-#### Links rápidos para cada entregável (basca clicar em alguma capa):
+#### Links rápidos para cada entregável (basta clicar em alguma capa):
 
 <table style="border-collapse: collapse;">
   <tr>
