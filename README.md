@@ -8,6 +8,7 @@ Repositório da equipe Tech do Bem, formada pelos alunos:
 
 #### Link do projeto: https://github.com/Tech-do-Bem-FIAP/Challenge
 
+<!--
 #### Links rápidos para cada entregável (basta clicar em alguma capa):
 
 <table style="border-collapse: collapse;">
@@ -22,8 +23,7 @@ Repositório da equipe Tech do Bem, formada pelos alunos:
     <td style="padding: 0;"><a href="https://github.com/Tech-do-Bem-FIAP/Challenge/tree/main/Building_Relational_Database"><img src="https://github.com/Tech-do-Bem-FIAP/Challenge/raw/main/Capas/Sprint_1/capa_database_page-0001.webp" alt="Database" width="250"></a></td>
   </tr>
 </table>
-
-
+-->
 # **Documentação do Projeto Frontend: Tech do Bem**
 
 ## **1. Visão Geral do Projeto**
