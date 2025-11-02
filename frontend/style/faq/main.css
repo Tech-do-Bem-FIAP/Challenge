@@ -2,13 +2,15 @@
   margin: 64px;
 }
 
-.questionCard {
+.question-card {
   padding: 30px;
   background-color: #641226;
 
   color: #f1f1f1;
   border: 1px solid #f1f1f1;
   border-radius: 10px;
+
+  cursor: pointer;
 
   & p {
     color: #f1f1f1;

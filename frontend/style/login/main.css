@@ -1,9 +1,9 @@
-#logoLogin {
+#logo-login {
   height: 100px;
   width: 100px;
 }
 
-#loginPage {
+#login-page {
   display: flex;
   margin: auto;
 
@@ -51,10 +51,10 @@
   }
 }
 
-#titleLogin {
+#title-login {
   margin-bottom: 10px;
 }
 
-#textLogin {
+#text-login {
   font-weight: 500;
 }

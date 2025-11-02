@@ -1,12 +1,12 @@
 .navigation {
   position: sticky;
-  top: 60px;
+  top: 3.75rem;
 
   filter: drop-shadow(-1px 3px 7px #000000);
 
-  gap: 40px;
+  gap: 2.5rem;
   align-items: center;
-  margin: 60px 64px;
+  margin: 3.75rem 4rem;
 
   background: #000000;
   background: linear-gradient(
@@ -15,11 +15,11 @@
     rgba(218, 52, 93, 1) 100%
   );
 
-  border-radius: 50px;
+  border-radius: 3.125rem;
 
   & ul {
     list-style: none;
-    gap: 40px;
+    gap: 2.5rem;
 
     & li {
       border: 1px solid transparent;
@@ -29,20 +29,20 @@
       border-bottom-color: #da345d;
     }
   }
-
-  & #logo {
-    display: flex;
-
-    width: 100px;
-    height: 100px;
-
-    align-items: center;
-
-    margin-left: 40px;
-  }
 }
 
-#loginBtn {
+#logo {
+  display: flex;
+
+  width: 100px;
+  height: 100px;
+
+  align-items: center;
+
+  margin-left: 40px;
+}
+
+.login-btn {
   margin: 0 40px 0 auto;
   & button {
     padding: 14px 20px;
@@ -58,7 +58,7 @@
   }
 }
 
-.bgHeader {
+.bg-header {
   position: fixed;
 
   top: 0;
@@ -70,58 +70,58 @@
   backdrop-filter: blur(10px);
 }
 
-.footerInfo {
+.footer-info {
   background: #000000;
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 1) 0%,
     rgba(218, 52, 93, 1) 100%
   );
+}
 
-  & #navFooter {
-    align-items: center;
-    padding: 10px;
+#nav-footer {
+  align-items: center;
+  padding: 10px;
 
-    & ul {
-      list-style: none;
-      gap: 140px;
+  & ul {
+    list-style: none;
+    gap: 140px;
 
-      margin-left: 140px;
+    margin-left: 140px;
 
-      & li {
-        border: 1px solid transparent;
-      }
+    & li {
+      border: 1px solid transparent;
+    }
 
-      & li:hover {
-        border-bottom: 1px solid #da345d;
-      }
+    & li:hover {
+      border-bottom: 1px solid #da345d;
     }
   }
+}
 
-  & #logoFooter {
-    max-width: 200px;
-    max-height: 200px;
-    padding-inline: 50px;
+#logo-footer {
+  max-width: 200px;
+  max-height: 200px;
+  padding-inline: 50px;
 
-    border-right: 1px solid #da345d;
-  }
+  border-right: 1px solid #da345d;
+}
 
-  #rights {
-    justify-content: space-between;
-    border-top: 1px solid #000000;
+#rights {
+  justify-content: space-between;
+  border-top: 1px solid #000000;
 
-    background: #000000;
-    background: linear-gradient(
-      360deg,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(218, 52, 93, 1) 100%
-    );
+  background: #000000;
+  background: linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(218, 52, 93, 1) 100%
+  );
 
-    padding: 7px 60px;
+  padding: 7px 60px;
 
-    & p {
-      color: #d4d4d4;
-    }
+  & p {
+    color: #d4d4d4;
   }
 }
 
@@ -149,18 +149,18 @@
 }
 
 .align-right {
-    text-align: right;
+  text-align: right;
 }
 
 .center-align {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo-medium {
-    width: 400px;
-    height: 400px;
+  width: 400px;
+  height: 400px;
 }
 
 .text {

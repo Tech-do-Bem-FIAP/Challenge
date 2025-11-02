@@ -1,4 +1,4 @@
-#contactInfo {
+#contact-info {
   max-width: 1300px;
   margin: 50px 64px;
 
@@ -7,15 +7,15 @@
   }
 }
 
-#contactMain {
+#contact-main {
   height: 100%;
 }
 
-#contactBody {
+#contact-body {
   height: 100vh;
 }
 
-#footerContact {
+#footer-contact {
   position: fixed;
   bottom: 0;
 
