@@ -1,16 +1,16 @@
 #info {
   max-width: 800px;
 
-  margin: 130px auto;
+  margin: 8.125rem auto;
   text-align: center;
 }
 
 .important-card {
   background-color: #641226;
-  padding: 56px 100px;
+  padding: 3.5rem 6.25rem;
 
   & h2 {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     font-size: 32px;
     font-weight: 500;
 
@@ -24,17 +24,17 @@
 
 #card-text {
   max-width: 830px;
-  margin: auto 0 auto 30px;
+  margin: auto 0 auto 1.875rem;
 }
 
 .mid-card {
   background-color: #30050e;
-  margin-block: 10px;
+  margin-block: 0.625rem;
 }
 
 #motivation {
   text-align: center;
-  margin: 260px auto;
+  margin: 16.25rem auto;
 
   max-width: 640px;
 }

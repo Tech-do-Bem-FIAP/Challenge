@@ -1,12 +1,12 @@
 #about {
   max-width: 1300px;
-  margin: 50px 64px;
+  margin: 3.125rem 4rem;
 
   & h1 {
-    margin: 58px 0px 34px;
+    margin: 3.625rem 0 2.125rem;
   }
 
   & p {
-    margin-bottom: 55px;
+    margin-bottom: 3.5rem;
   }
 }

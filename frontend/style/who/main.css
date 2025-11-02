@@ -1,11 +1,11 @@
 #colaborator {
-  margin: 50px 64px;
+  margin: 3.125rem 4rem;
 
   .infoColaborator {
     justify-content: center;
 
-    gap: 10px;
-    margin-inline: 10px;
+    gap: 0.625rem;
+    margin-inline: 0.625rem;
   }
 
   #lucas-campanha {

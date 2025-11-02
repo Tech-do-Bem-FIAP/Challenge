@@ -1,9 +1,9 @@
 #questions {
-  margin: 64px;
+  margin: 4rem;
 }
 
 .question-card {
-  padding: 30px;
+  padding: 1.875rem;
   background-color: #641226;
 
   color: #f1f1f1;
@@ -14,6 +14,6 @@
 
   & p {
     color: #f1f1f1;
-    padding: 8px;
+    padding: 0.5rem;
   }
 }
