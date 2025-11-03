@@ -38,3 +38,29 @@
 
   max-width: 640px;
 }
+
+@media (max-width: 600px) {
+  #info,
+  #motivation,
+  #card-text {
+    max-width: 100%;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+
+  .important-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .important-card h2 {
+    font-size: 1.5rem;
+  }
+
+  .important-card p {
+    font-size: 1rem;
+  }
+
+  #motivation {
+    margin: 4rem auto;
+  }
+}

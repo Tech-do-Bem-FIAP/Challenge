@@ -1,12 +1,64 @@
+.title {
+  font-size: 94px;
+  margin-bottom: 0.625rem;
+  color: transparent;
+  background: -webkit-linear-gradient(#641226, #da345d);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title2 {
+  font-size: 48px;
+  background: -webkit-linear-gradient(#da345d, #f1f1f1);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title3 {
+  font-size: 32px;
+  background: -webkit-linear-gradient(#641226, #da345d);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.center-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-medium {
+  width: 400px;
+  height: 400px;
+}
+
+.text {
+  font-size: 1.5rem;
+}
+
+.flex {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
 .navigation {
   position: sticky;
   top: 3.75rem;
+  margin: 3.75rem 4rem;
 
   filter: drop-shadow(-1px 3px 7px #000000);
 
   gap: 2.5rem;
   align-items: center;
-  margin: 3.75rem 4rem;
 
   background: #000000;
   background: linear-gradient(
@@ -44,6 +96,8 @@
 
 .login-btn {
   margin: 0 2.5rem 0 auto;
+  display: none;
+
   & button {
     padding: 0.875rem 1.25rem;
 
@@ -125,52 +179,41 @@
   }
 }
 
-.title {
-  font-size: 94px;
-  margin-bottom: 0.625rem;
-  color: transparent;
-  background: -webkit-linear-gradient(#641226, #da345d);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+@media (max-width: 600px) {
+  .title {
+    font-size: 48px;
+  }
 
-.title2 {
-  font-size: 48px;
-  background: -webkit-linear-gradient(#da345d, #f1f1f1);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+  .title2 {
+    font-size: 28px;
+  }
 
-.title3 {
-  font-size: 32px;
-  background: -webkit-linear-gradient(#641226, #da345d);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+  .title3 {
+    font-size: 22px;
+  }
 
-.align-right {
-  text-align: right;
-}
+  .navigation {
+    margin: 1rem;
+    border-radius: 1.5rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
 
-.center-align {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  #nav-footer ul {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin: 0;
+  }
 
-.logo-medium {
-  width: 400px;
-  height: 400px;
-}
+  #logo-footer {
+    border: none;
+    padding: 1rem;
+  }
 
-.text {
-  font-size: 24px;
-}
-
-.flex {
-  display: flex;
-}
-
-.flex-col {
-  flex-direction: column;
+  #rights {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
 }
