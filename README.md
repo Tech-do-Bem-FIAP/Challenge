@@ -1,11 +1,11 @@
 # Challenge
 
-Sejam bem vindos(as) a Tech do Bem!
-Nossa solução visa integrar e facilitar a vida dos colaboradores e dentistas parceiros da Turma do Bem através de um sitema integrador de informações, assim evitando a perca de dados no seu processamento.
+Sejam bem-vindos(as) à Tech do Bem!
+Nossa solução tem como objetivo integrar e facilitar a rotina dos colaboradores e dentistas parceiros da Turma do Bem, por meio de um sistema integrador de informações, evitando a perda de dados durante o seu processamento.
 
 ## Tecnologias
 
-Nesse sistema foram utilizadas as seguintes tecnologias:
+Neste sistema, foram utilizadas as seguintes tecnologias:
 
 - HTML
 - CSS
@@ -26,7 +26,9 @@ Nesse sistema foram utilizadas as seguintes tecnologias:
 
 ## Estrutura de pastas
 
-Esse projeto foi muito bem dividido visando a boa manutenção de forma pratica e fácil visualmente. Temos um arquivo HTML para cada página disponível no site e para cada pagina possuimos uma pasta CSS dedicada com conteúdos e estilizações especifícas de cada uma. Além disso, temos uma pasta dedicada ao Javascript e uma apenas de imagens.
+O projeto foi cuidadosamente estruturado, visando uma boa manutenção, de forma prática e visualmente organizada.
+Cada página do site possui um arquivo HTML dedicado e uma pasta CSS específica, contendo os estilos e conteúdos correspondentes.
+Além disso, há uma pasta exclusiva para os arquivos JavaScript e outra destinada às imagens.
 
 #### Link do projeto:
 
