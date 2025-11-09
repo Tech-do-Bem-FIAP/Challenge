@@ -2,12 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
 
+body {
   font-family: "Saira", sans-serif;
+  padding-top: 100px;
 }
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 h1,

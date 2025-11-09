@@ -1,40 +1,111 @@
 #info {
-  max-width: 800px;
+  max-width: 90%;
 
-  margin: 130px auto;
+  margin: 6rem auto 4rem auto;
+}
+
+#title {
   text-align: center;
 }
 
-.importantCard {
+.important-card {
   background-color: #641226;
-  padding: 56px 100px;
+  padding: 2.5rem 2rem;
 
-  & #cardText {
-    max-width: 830px;
-    margin: auto 0 auto 30px;
+  & h2 {
+    margin-bottom: 1rem;
+    font-size: 32px;
+    font-weight: 500;
 
-    & h2 {
-      margin-bottom: 10px;
-      font-size: 32px;
-      font-weight: 500;
+    color: #f1f1f1;
+  }
 
-      color: #f1f1f1;
-    }
-
-    & p {
-      color: #f1f1f1;
-    }
+  & p {
+    color: #f1f1f1;
   }
 }
 
-.midCard {
+#card-text {
+  max-width: 90%;
+
+  font-size: 1.5rem;
+}
+
+.mid-card {
   background-color: #30050e;
-  margin-block: 10px;
+  margin-block: 0.625rem;
 }
 
 #motivation {
-  text-align: center;
-  margin: 260px auto;
+  max-width: 90%;
 
-  max-width: 640px;
+  text-align: center;
+  margin: 6rem auto;
+}
+
+#menu-footer nav ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 8px;
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (min-width: 600px) {
+  #info {
+    max-width: 80%;
+  }
+
+  #card-text {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  #title-first-card,
+  #title-second-card,
+  #title-third-card {
+    text-align: center;
+  }
+
+  #motivation {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  #motivation {
+    max-width: 75%;
+  }
+}
+
+@media (min-width: 992px) {
+  .important-card {
+    padding: 3.5rem 6.25rem;
+    flex-direction: row;
+  }
+
+  #mid-card {
+    flex-direction: row-reverse;
+  }
+
+  #title-first-card,
+  #title-third-card {
+    text-align: right;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  #motivation {
+    max-width: 60%;
+  }
 }

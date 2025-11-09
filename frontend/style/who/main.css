@@ -1,16 +1,15 @@
 #colaborator {
-  margin: 50px 64px;
+  max-width: 90%;
+  margin: 4rem auto;
 
-  .infoColaborator {
-    justify-content: center;
-
-    gap: 10px;
-    margin-inline: 10px;
+  & section {
+    margin-bottom: 4rem;
   }
+}
 
-  #Lucas_Campanha {
-    justify-content: end;
+.colaborator-pic {
+  max-width: 300px;
+  max-height: 300px;
 
-    margin-block: 100px;
-  }
+  margin-bottom: 1rem;
 }

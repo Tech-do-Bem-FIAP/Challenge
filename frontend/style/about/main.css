@@ -1,12 +1,12 @@
 #about {
-  max-width: 1300px;
-  margin: 50px 64px;
+  max-width: 90%;
+  margin-inline: auto;
 
   & h1 {
-    margin: 58px 0px 34px;
+    margin: 4rem 0 2rem;
   }
 
   & p {
-    margin-bottom: 55px;
+    margin-bottom: 4rem;
   }
 }

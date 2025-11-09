@@ -9,7 +9,7 @@
     <title>Tech do Bem</title>
   </head>
   <body>
-    <div class="bgHeader"></div>
+    <div class="bg-header"></div>
 
     <header class="navigation flex">
       <div>
@@ -23,142 +23,489 @@
       </div>
 
       <div id="menu">
-        <nav class="flex">
+        <nav>
           <ul class="flex">
             <li>
-              <a href="./index.html">Home</a>
+              <a href="./index.html">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-house-icon lucide-house"
+                >
+                  <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+                  <path
+                    d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                  />
+                </svg>
+                Home
+              </a>
             </li>
             <li>
-              <a href="./about.html">Sobre</a>
+              <a target="_blank" href="./about.html">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-info-icon lucide-info"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 16v-4" />
+                  <path d="M12 8h.01" />
+                </svg>
+                Sobre
+              </a>
             </li>
             <li>
-              <a href="./who.html">Quem somos</a>
+              <a target="_blank" href="./contact.html">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-phone-icon lucide-phone"
+                >
+                  <path
+                    d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                  />
+                </svg>
+                Contato
+              </a>
             </li>
             <li>
-              <a href="./contact.html">Contato</a>
+              <a target="_blank" href="./who.html">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-users-round-icon lucide-users-round"
+                >
+                  <path d="M18 21a8 8 0 0 0-16 0" />
+                  <circle cx="10" cy="8" r="5" />
+                  <path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3" />
+                </svg>
+                Quem somos
+              </a>
             </li>
             <li>
-              <a href="./faq.html">FAQ</a>
+              <a target="_blank" href="./faq.html">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-search-icon lucide-search"
+                >
+                  <path d="m21 21-4.34-4.34" />
+                  <circle cx="11" cy="11" r="8" />
+                </svg>
+                FAQ
+              </a>
             </li>
           </ul>
         </nav>
       </div>
 
-      <div id="loginBtn">
+      <div class="login-btn">
         <button>
           <a target="_blank" href="./login.html">Login</a>
         </button>
       </div>
+
+      <div class="mobile-menu-btn" onclick="openMenu()">
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-menu-icon lucide-menu"
+          >
+            <path d="M4 5h16" />
+            <path d="M4 12h16" />
+            <path d="M4 19h16" />
+          </svg>
+        </button>
+      </div>
     </header>
+    <div id="mobile-menu">
+      <nav>
+        <ul class="align-right flex flex-col">
+          <li>
+            <a href="./index.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-house-icon lucide-house"
+              >
+                <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+                <path
+                  d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                />
+              </svg>
+              Home
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="./about.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-info-icon lucide-info"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 16v-4" />
+                <path d="M12 8h.01" />
+              </svg>
+              Sobre
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="./contact.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-phone-icon lucide-phone"
+              >
+                <path
+                  d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                />
+              </svg>
+              Contato
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="./who.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-users-round-icon lucide-users-round"
+              >
+                <path d="M18 21a8 8 0 0 0-16 0" />
+                <circle cx="10" cy="8" r="5" />
+                <path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3" />
+              </svg>
+              Quem somos
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="./faq.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-search-icon lucide-search"
+              >
+                <path d="m21 21-4.34-4.34" />
+                <circle cx="11" cy="11" r="8" />
+              </svg>
+              FAQ
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="./login.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-circle-user-round-icon lucide-circle-user-round"
+              >
+                <path d="M18 20a6 6 0 0 0-12 0" />
+                <circle cx="12" cy="10" r="4" />
+                <circle cx="12" cy="12" r="10" />
+              </svg>
+              Login
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
     <main>
       <section>
         <div id="info">
-          <h1 class="title">Tech do Bem</h1>
-          <br>
+          <h1 id="title" class="title">Tech do Bem</h1>
+          <br />
           <p class="text">
             A Tech do Bem é o apoio tecnológico que faltava para a Turma do Bem.
-            <br><br>Aqui, potencializamos o alcance das nossas mãos por meio de soluções humanizadas, modernas e personalizadas.
-            <br><br><b>Nosso objetivo é claro:</b> transformar o modo como pessoas reais interagem com a tecnologia, afastando o medo de crescer mas, principalmente, de permanecer gigante.
+            <br /><br />Aqui, potencializamos o alcance das nossas mãos por meio
+            de soluções humanizadas, modernas e personalizadas. <br /><br /><b
+              >Nosso objetivo é claro:</b
+            >
+            transformar o modo como pessoas reais interagem com a tecnologia,
+            afastando o medo de crescer mas, principalmente, de permanecer
+            gigante.
           </p>
         </div>
       </section>
 
-      <section class="importantCard flex">
+      <section class="important-card flex flex-col">
         <div>
-            <h2 class="title2 align-right">
-                O PRIVIÉGIO DE PODER MUDAR VIDAS
-            </h2>
+          <h2 id="title-first-card" class="title2">
+            O PRIVIÉGIO DE PODER MUDAR VIDAS
+          </h2>
         </div>
-        <div id="cardText">
+        <div id="card-text">
           <p>
-              Para nós, a parceria com a Turma do Bem é mais do que uma relação profissional.
-              <br> <b>Acreditamos que dar nossas mãos é uma oportunidade única.</b>
+            Para nós, a parceria com a Turma do Bem é mais do que uma relação
+            profissional.
+            <br />
+            <b>Acreditamos que dar nossas mãos é uma oportunidade única.</b>
           </p>
         </div>
       </section>
 
-      <section class="importantCard midCard flex">
-        <div id="cardText">
-            <p>
-                Compaixão é um valor inegociável.
-                <br>Não se trata de vender uma solução, mas de apresentar <b>um caminho que todos possam atravessar juntos.</b>
-            </p>
+      <section id="mid-card" class="important-card mid-card flex flex-col">
+        <div class="mid-card">
+          <h2 id="title-second-card" class="title2">A COMPAIXÃO COMO VALOR</h2>
         </div>
-        <div class="midCard">
-            <h2 class="title2">
-                A COMPAIXÃO COMO VALOR
-            </h2>
-        </div>
-      </section>
-
-      <section class="importantCard flex">
-        <div>
-            <h2 class="title2 align-right">
-                A TECNOLOGIA PARA IMPULSIONAR
-            </h2>
-        </div>
-        <div id="cardText">
-           <p>
-               Ferramentas não substituem o calor humano.
-               <br>Com a Tech do Bem não é diferente: somos human-first e não abrimos mão disso.
-               <br>Por isso, nossa maior preocupação é introduzir mudanças que sejam significativas, mas sem perder a familiaridade.
-               <br>A tecnologia, para nós, é isso: <b>propulsão para propósitos humanos.</b>
-           </p>
+        <div id="card-text">
+          <p>
+            Compaixão é um valor inegociável.
+            <br />Não se trata de vender uma solução, mas de apresentar
+            <b>um caminho que todos possam atravessar juntos.</b>
+          </p>
         </div>
       </section>
 
-      <section class="importantCard midCard center-align">
-          <div>
-              <h2 class="title2">
-                  <br>ISSO É
-              </h2>
-          </div>
+      <section class="important-card flex flex-col">
+        <div>
+          <h2 id="title-third-card" class="title2">
+            A TECNOLOGIA PARA IMPULSIONAR
+          </h2>
+        </div>
+        <div id="card-text">
+          <p>
+            Ferramentas não substituem o calor humano.
+            <br />Com a Tech do Bem não é diferente: somos human-first e não
+            abrimos mão disso. <br />Por isso, nossa maior preocupação é
+            introduzir mudanças que sejam significativas, mas sem perder a
+            familiaridade. <br />A tecnologia, para nós, é isso:
+            <b>propulsão para propósitos humanos.</b>
+          </p>
+        </div>
+      </section>
+
+      <section class="important-card mid-card center-align">
+        <div>
+          <h2 class="title2 align-right">ISSO É</h2>
+        </div>
 
         <div>
-            <img class="logo-medium" src="./assets/logo-tech-do-bem.webp" alt="Logo da Tech do Bem">
+          <img
+            class="logo-medium"
+            src="./assets/logo-tech-do-bem.webp"
+            alt="Logo da Tech do Bem"
+          />
         </div>
       </section>
 
       <section id="motivation">
-          <h3 class="title3">Porque, juntos,
-              <br>somos mais fortes.</h3>
-          <br>
+        <h3 class="title3">Porque, juntos, <br />somos mais fortes.</h3>
+        <br />
         <p class="text">
-            Convidamos a Turma do Bem a dar este próximo passo <b>em direção ao futuro</b>, onde mais sorrisos são alcançados e mais vidas são transformadas.
+          Convidamos a Turma do Bem a dar este próximo passo
+          <b>em direção ao futuro</b>, onde mais sorrisos são alcançados e mais
+          vidas são transformadas.
         </p>
       </section>
     </main>
 
-    <footer class="footerInfo">
-      <section id="navFooter" class="flex">
-        <div>
+    <footer class="footer-info">
+      <section id="nav-footer" class="flex">
+        <div id="logo-footer">
           <a href="./index.html">
             <img
-              id="logoFooter"
+              class="logo-medium"
               src="./assets/logo-tech-do-bem.webp"
               alt="Logo da Tech do Bem, a logo possuí o nome da empresa na cor branca com uma borda rosa, e possuí um detalhe gráfico de um dente."
             />
           </a>
         </div>
 
-        <div>
-          <nav>
+        <div id="menu-footer">
+          <nav class="flex">
             <ul class="flex">
               <li>
-                <a href="./index.html">Home</a>
+                <a href="./index.html">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-house-icon lucide-house"
+                  >
+                    <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+                    <path
+                      d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                    />
+                  </svg>
+                  Home
+                </a>
               </li>
               <li>
-                <a href="./about.html">Sobre</a>
+                <a href="./about.html">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-info-icon lucide-info"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M12 16v-4" />
+                    <path d="M12 8h.01" />
+                  </svg>
+                  Sobre
+                </a>
               </li>
               <li>
-                <a href="./contact.html">Contato</a>
+                <a href="./contact.html">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-phone-icon lucide-phone"
+                  >
+                    <path
+                      d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                    />
+                  </svg>
+                  Contato
+                </a>
+              </li>
+            </ul>
+
+            <ul class="flex">
+              <li>
+                <a href="./who.html">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-users-round-icon lucide-users-round"
+                  >
+                    <path d="M18 21a8 8 0 0 0-16 0" />
+                    <circle cx="10" cy="8" r="5" />
+                    <path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3" />
+                  </svg>
+                  Quem somos
+                </a>
               </li>
               <li>
-                <a href="./who.html">Quem somos</a>
-              </li>
-              <li>
-                <a href="./faq.html">FAQ</a>
+                <a href="./faq.html">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-search-icon lucide-search"
+                  >
+                    <path d="m21 21-4.34-4.34" />
+                    <circle cx="11" cy="11" r="8" />
+                  </svg>
+                  FAQ
+                </a>
               </li>
             </ul>
           </nav>
@@ -175,5 +522,7 @@
         </div>
       </section>
     </footer>
+
+    <script src="./../js/script.js"></script>
   </body>
 </html>

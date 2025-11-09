@@ -9,7 +9,7 @@
     <title>FAQ</title>
   </head>
   <body>
-    <div class="bgHeader"></div>
+    <div class="bg-header"></div>
 
     <header class="navigation flex">
       <div>
@@ -23,33 +23,276 @@
       </div>
 
       <div id="menu">
-        <nav class="flex">
+        <nav>
           <ul class="flex">
             <li>
-              <a href="./index.html">Home</a>
+              <a href="./index.html">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-house-icon lucide-house"
+                >
+                  <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+                  <path
+                    d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                  />
+                </svg>
+                Home
+              </a>
             </li>
             <li>
-              <a href="./about.html">Sobre</a>
+              <a target="_blank" href="./about.html">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-info-icon lucide-info"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 16v-4" />
+                  <path d="M12 8h.01" />
+                </svg>
+                Sobre
+              </a>
             </li>
             <li>
-              <a href="./who.html">Quem somos</a>
+              <a target="_blank" href="./contact.html">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-phone-icon lucide-phone"
+                >
+                  <path
+                    d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                  />
+                </svg>
+                Contato
+              </a>
             </li>
             <li>
-              <a href="./contact.html">Contato</a>
+              <a target="_blank" href="./who.html">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-users-round-icon lucide-users-round"
+                >
+                  <path d="M18 21a8 8 0 0 0-16 0" />
+                  <circle cx="10" cy="8" r="5" />
+                  <path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3" />
+                </svg>
+                Quem somos
+              </a>
             </li>
             <li>
-              <a href="./faq.html">FAQ</a>
+              <a target="_blank" href="./faq.html">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-search-icon lucide-search"
+                >
+                  <path d="m21 21-4.34-4.34" />
+                  <circle cx="11" cy="11" r="8" />
+                </svg>
+                FAQ
+              </a>
             </li>
           </ul>
         </nav>
       </div>
 
-      <div id="loginBtn">
+      <div class="login-btn">
         <button>
           <a target="_blank" href="./login.html">Login</a>
         </button>
       </div>
+
+      <div class="mobile-menu-btn" onclick="openMenu()">
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-menu-icon lucide-menu"
+          >
+            <path d="M4 5h16" />
+            <path d="M4 12h16" />
+            <path d="M4 19h16" />
+          </svg>
+        </button>
+      </div>
     </header>
+    <div id="mobile-menu">
+      <nav>
+        <ul class="align-right flex flex-col">
+          <li>
+            <a href="./index.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-house-icon lucide-house"
+              >
+                <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+                <path
+                  d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                />
+              </svg>
+              Home
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="./about.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-info-icon lucide-info"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 16v-4" />
+                <path d="M12 8h.01" />
+              </svg>
+              Sobre
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="./contact.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-phone-icon lucide-phone"
+              >
+                <path
+                  d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                />
+              </svg>
+              Contato
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="./who.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-users-round-icon lucide-users-round"
+              >
+                <path d="M18 21a8 8 0 0 0-16 0" />
+                <circle cx="10" cy="8" r="5" />
+                <path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3" />
+              </svg>
+              Quem somos
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="./faq.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-search-icon lucide-search"
+              >
+                <path d="m21 21-4.34-4.34" />
+                <circle cx="11" cy="11" r="8" />
+              </svg>
+              FAQ
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="./login.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-circle-user-round-icon lucide-circle-user-round"
+              >
+                <path d="M18 20a6 6 0 0 0-12 0" />
+                <circle cx="12" cy="10" r="4" />
+                <circle cx="12" cy="12" r="10" />
+              </svg>
+              Login
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
     <main>
       <section id="questions">
@@ -59,12 +302,12 @@
         </div>
 
         <div>
-          <details name="FAQ" class="questionCard">
-            <summary class="text">
+          <details name="FAQ" class="question-card">
+            <summary>
               Como poderei acessar o sistema e quais dispositivos são
               compatíveis?
             </summary>
-            <p class="text">
+            <p>
               O sistema foi desenvolvido para acesso via navegador web,
               permitindo que você acesse de qualquer dispositivo (computador,
               tablet ou smartphone) a qualquer momento. Basta ter conexão com
@@ -74,12 +317,12 @@
             </p>
           </details>
 
-          <details name="FAQ" class="questionCard">
-            <summary class="text">
+          <details name="FAQ" class="question-card">
+            <summary>
               Como o sistema ajudará no acompanhamento de pacientes e no envio
               de comunicados?
             </summary>
-            <p class="text">
+            <p>
               Desenvolvemos uma interface intuitiva que unifica todas as
               informações do paciente, incluindo histórico, próximas consultas,
               exames e cirurgias. Você poderá enviar comunicados diretamente
@@ -89,12 +332,12 @@
             </p>
           </details>
 
-          <details name="FAQ" class="questionCard">
-            <summary class="text">
+          <details name="FAQ" class="question-card">
+            <summary>
               Existe suporte disponível para resolver dúvidas burocráticas
               rapidamente?
             </summary>
-            <p class="text">
+            <p>
               Sim! Implementamos um suporte alternativo baseado em Inteligência
               Artificial para agilizar questões burocráticas e solucionar
               dúvidas operacionais rapidamente. Casos mais complexos são
@@ -103,12 +346,12 @@
             </p>
           </details>
 
-          <details name="FAQ" class="questionCard">
-            <summary class="text">
+          <details name="FAQ" class="question-card">
+            <summary>
               Como ficará o armazenamento de documentos e dados no novo sistema?
               Haverá risco de perda de informações durante a transição?
             </summary>
-            <p class="text">
+            <p>
               Implementamos uma reestruturação completa do banco de dados com
               foco máximo em segurança e robustez. Todos os documentos e dados
               de pacientes e voluntários serão armazenados de forma centralizada
@@ -124,35 +367,128 @@
       </section>
     </main>
 
-    <footer id="footerFaq" class="footerInfo">
-      <section id="navFooter" class="flex">
-        <div>
+    <footer class="footer-info">
+      <section id="nav-footer" class="flex">
+        <div id="logo-footer">
           <a href="./index.html">
             <img
-              id="logoFooter"
+              class="logo-medium"
               src="./assets/logo-tech-do-bem.webp"
               alt="Logo da Tech do Bem, a logo possuí o nome da empresa na cor branca com uma borda rosa, e possuí um detalhe gráfico de um dente."
             />
           </a>
         </div>
 
-        <div>
-          <nav>
+        <div id="menu-footer">
+          <nav class="flex">
             <ul class="flex">
               <li>
-                <a href="./index.html">Home</a>
+                <a href="./index.html">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-house-icon lucide-house"
+                  >
+                    <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+                    <path
+                      d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                    />
+                  </svg>
+                  Home
+                </a>
               </li>
               <li>
-                <a href="./about.html">Sobre</a>
+                <a href="./about.html">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-info-icon lucide-info"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M12 16v-4" />
+                    <path d="M12 8h.01" />
+                  </svg>
+                  Sobre
+                </a>
               </li>
               <li>
-                <a href="./contact.html">Contato</a>
+                <a href="./contact.html">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-phone-icon lucide-phone"
+                  >
+                    <path
+                      d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                    />
+                  </svg>
+                  Contato
+                </a>
+              </li>
+            </ul>
+
+            <ul class="flex">
+              <li>
+                <a href="./who.html">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-users-round-icon lucide-users-round"
+                  >
+                    <path d="M18 21a8 8 0 0 0-16 0" />
+                    <circle cx="10" cy="8" r="5" />
+                    <path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3" />
+                  </svg>
+                  Quem somos
+                </a>
               </li>
               <li>
-                <a href="./who.html">Quem somos</a>
-              </li>
-              <li>
-                <a href="./faq.html">FAQ</a>
+                <a href="./faq.html">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-search-icon lucide-search"
+                  >
+                    <path d="m21 21-4.34-4.34" />
+                    <circle cx="11" cy="11" r="8" />
+                  </svg>
+                  FAQ
+                </a>
               </li>
             </ul>
           </nav>
@@ -161,7 +497,7 @@
 
       <section id="rights" class="flex">
         <div>
-          <p>© 2025 Tech do Bem | Todos os direitos reservados</p>
+          <p>© 2025 Tech do Bem | Todos os direitos reservados</p>
         </div>
 
         <div>
@@ -169,5 +505,7 @@
         </div>
       </section>
     </footer>
+
+    <script src="./../js/script.js"></script>
   </body>
 </html>
