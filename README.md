@@ -22,7 +22,6 @@ Nesse sistema foram utilizadas as seguintes tecnologias:
 <div>
     <img src="./frontend/assets/website/Login-desktop.png" alt="Página de login da aplicação para desktop">
     <img src="./frontend/assets/website/pagina-inicial-desktop.png" alt="Página inicial da aplicação para desktop">
-    <img src="./frontend/assets/website/Pagina-inicial-mobile.png" alt="Página inicial da aplicação para mobile">
 </div>
 
 ## Estrutura de pastas
