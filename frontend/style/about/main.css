@@ -1,0 +1,12 @@
+#about {
+  max-width: 90%;
+  margin-inline: auto;
+
+  & h1 {
+    margin: 4rem 0 2rem;
+  }
+
+  & p {
+    margin-bottom: 4rem;
+  }
+}

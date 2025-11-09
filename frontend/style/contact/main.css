@@ -1,0 +1,27 @@
+#contact-info {
+  max-width: 90%;
+  margin: 4rem auto;
+
+  & p {
+    margin-top: 3.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #footer-contact {
+    position: fixed;
+    bottom: 0;
+  }
+
+  #contact-main {
+    height: 100%;
+  }
+
+  #contact-body {
+    height: 100vh;
+  }
+
+  #footer-contact {
+    width: 100vw;
+  }
+}
