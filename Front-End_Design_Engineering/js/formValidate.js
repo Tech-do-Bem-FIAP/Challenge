@@ -4,18 +4,18 @@ const userEmail = document.getElementById("userEmail");
 const userPassword = document.getElementById("userPassword");
 
 const emailInput = document.getElementById("userEmailInput");
-const senhaInput = document.getElementById("userPasswordInput");
+const passwordInput = document.getElementById("userPasswordInput");
 
 const emailError = document.getElementById("emailError");
-const senhaError = document.getElementById("passwordError");
+const passwordError = document.getElementById("passwordError");
 
-function validarLogin(email, senha) {
+function validarLogin(email, password) {
   const regexEmail = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-  const regexSenha = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$/;
+  const regexpassword = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$/;
 
   return {
-    emailValido: regexEmail.test(email),
-    senhaValida: regexSenha.test(senha),
+    validEmail: regexEmail.test(email),
+    validPassword: regexpassword.test(password),
   };
 }
 
@@ -23,12 +23,12 @@ form.addEventListener("submit", function (e) {
   e.preventDefault();
 
   const email = emailInput.value;
-  const senha = senhaInput.value;
+  const password = passwordInput.value;
 
-  const resultado = validarLogin(email, senha);
+  const result = validarLogin(email, password);
 
   // Email
-  if (resultado.emailValido == false) {
+  if (result.validEmail == false) {
     userEmail.classList.add("user-error");
     emailError.textContent = "O usuário deve ser um e-mail";
   } else {
@@ -36,18 +36,18 @@ form.addEventListener("submit", function (e) {
     emailError.textContent = "";
   }
 
-  // Senha
-  if (resultado.senhaValida == false) {
+  // Password
+  if (result.validPassword == false) {
     userPassword.classList.add("user-error");
-    senhaError.textContent =
+    passwordError.textContent =
       "A senha deve conter no mínimo 6 dígitos e 1 número.";
   } else {
     userPassword.classList.remove("user-error");
-    senhaError.textContent = "";
+    passwordError.textContent = "";
   }
 
-  // Sucesso
-  if (resultado.emailValido && resultado.senhaValida) {
+  // Sucess
+  if (result.validEmail && result.validPassword) {
     alert("Logado!");
   }
 });
