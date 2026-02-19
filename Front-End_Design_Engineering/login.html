@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
@@ -32,35 +32,27 @@
       </section>
 
       <section>
-        <form id="loginForm" class="container" method="post">
-          <div id="userEmail">
+        <form method="post">
+          <div class="container">
             <label for="uname"><b>Usuário</b></label>
             <input
-              id="userEmailInput"
               type="text"
-              placeholder="Digite seu usuário"
+              placeholder="Coloque seu usuário"
               name="uname"
               required
             />
-            <p id="emailError"></p>
-          </div>
 
-          <div id="userPassword">
             <label for="psw"><b>Senha</b></label>
             <input
-              id="userPasswordInput"
               type="password"
-              placeholder="Digite sua senha"
+              placeholder="Coloque sua senha"
               name="psw"
               required
             />
-            <p id="passwordError"></p>
+
+            <button type="submit">Login</button>
           </div>
-
-          <button type="submit">Login</button>
         </form>
-
-        <script src="./js/formValidate.js"></script>
       </section>
     </main>
   </body>
