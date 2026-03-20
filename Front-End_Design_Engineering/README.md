@@ -1,35 +1,73 @@
-# Challenge
+# React + TypeScript + Vite
 
-Sejam bem-vindos(as) à Tech do Bem!
-Nossa solução tem como objetivo integrar e facilitar a rotina dos colaboradores e dentistas parceiros da Turma do Bem, por meio de um sistema integrador de informações, evitando a perda de dados durante o seu processamento.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Tecnologias
+Currently, two official plugins are available:
 
-Neste sistema, foram utilizadas as seguintes tecnologias:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- HTML
-- CSS
-- Javascript
+## React Compiler
 
-### Integrantes
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- Lucas Marcelino Pompeu (RM567010);
-- Lucas Campanhã dos Santos (RM566815);
-- Hugo Souza de Jesus (RM568542).
+## Expanding the ESLint configuration
 
-### Projeto
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-<div>
-    <img src="./assets/website/Login-desktop.png" alt="Página de login da aplicação para desktop">
-    <img src="./assets/website/pagina-inicial-desktop.png" alt="Página inicial da aplicação para desktop">
-</div>
+```js
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
 
-## Estrutura de pastas
+      // Remove tseslint.configs.recommended and replace with this
+      tseslint.configs.recommendedTypeChecked,
+      // Alternatively, use this for stricter rules
+      tseslint.configs.strictTypeChecked,
+      // Optionally, add this for stylistic rules
+      tseslint.configs.stylisticTypeChecked,
 
-O projeto foi cuidadosamente estruturado, visando uma boa manutenção, de forma prática e visualmente organizada.
-Cada página do site possui um arquivo HTML dedicado e uma pasta CSS específica, contendo os estilos e conteúdos correspondentes.
-Além disso, há uma pasta exclusiva para os arquivos JavaScript e outra destinada às imagens.
+      // Other configs...
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
 
-#### Link do projeto:
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-- https://github.com/Tech-do-Bem-FIAP/Challenge
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
+
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+      // Enable lint rules for React
+      reactX.configs['recommended-typescript'],
+      // Enable lint rules for React DOM
+      reactDom.configs.recommended,
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
