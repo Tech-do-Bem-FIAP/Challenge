@@ -1,7 +1,7 @@
 function Login() {
   return (
     <>
-      <p>Hello world!</p>
+      <p>Welcome to login section!</p>
     </>
   );
 }

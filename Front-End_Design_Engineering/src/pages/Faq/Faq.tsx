@@ -1,7 +1,7 @@
 function Faq() {
   return (
     <>
-      <p>Hello world!</p>
+      <p>Welcome to faq section!</p>
     </>
   );
 }

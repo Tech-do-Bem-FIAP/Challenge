@@ -8,6 +8,83 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: var(--text-font-style);
+}
+
 html {
-  font-size: 16px;
+  scroll-behavior: smooth;
+  font-size: var(--text-small);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--title-font-style);
+}
+
+/* p {
+  color: var(--text-color);
+} */
+
+body {
+  background-color: var(--bg-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--bg-color);
+}
+
+@layer components {
+  .title {
+    font-size: 3rem;
+    margin-bottom: 0.625rem;
+    color: transparent;
+    background: -webkit-linear-gradient(
+      var(--brand-secondary),
+      var(--brand-primary)
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .title2 {
+    font-size: 1.75rem;
+    background: -webkit-linear-gradient(var(--brand-primary), var(bg-color));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .title3 {
+    font-size: 1.375rem;
+    background: -webkit-linear-gradient(
+      var(--brand-secondary),
+      var(--brand-primary)
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  @media (min-width: 992px) {
+    .title {
+      font-size: 5.875rem;
+      margin-bottom: 0.625rem;
+    }
+
+    .title2 {
+      font-size: 3rem;
+    }
+
+    .title3 {
+      font-size: 2rem;
+    }
+  }
 }

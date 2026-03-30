@@ -1,7 +1,7 @@
 function Who() {
   return (
     <>
-      <p>Hello world!</p>
+      <p>Welcome to who section!</p>
     </>
   );
 }

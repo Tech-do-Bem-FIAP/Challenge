@@ -1,7 +1,7 @@
 function About() {
   return (
     <>
-      <p>Hello world!</p>
+      <p>Welcome to about section!</p>
     </>
   );
 }
