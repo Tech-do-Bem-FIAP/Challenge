@@ -1,16 +1,21 @@
-import { Footer } from "../../components/Footer/Footer";
+import { House, Menu } from "lucide-react";
+import { Logo } from "../../components/Logo/Logo";
+import { MenuItem } from "../../components/Menu/Menu";
 
 function Home() {
   return (
     <>
-      <header>
-        {/* <Logo /> */}
-        {/* <Menu>
-          <MenuItem>
+      <header className="flex">
+        <Logo />
+        <Menu>
+          <MenuItem icon={<House/>}>
+            <p>Home</p>
           </MenuItem>
-        </Menu> */}
+        </Menu>
         <div>
-          <button></button>
+          <button className="bg-(--bg-color) border-2 border-(--brand-primary) rounded-full px-5 py-3.5">
+            <a href="">Login</a>
+          </button>
         </div>
       </header>
 
@@ -58,8 +63,6 @@ function Home() {
           </p>
         </section>
       </main>
-
-      <Footer />
     </>
   );
 }
