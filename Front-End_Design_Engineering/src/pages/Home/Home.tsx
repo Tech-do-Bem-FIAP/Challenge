@@ -1,28 +1,29 @@
-import { House, Menu } from "lucide-react";
+import { House } from "lucide-react";
 import { Logo } from "../../components/Logo/Logo";
-import { MenuItem } from "../../components/Menu/Menu";
+import { Menu, MenuItem } from "../../components/Menu/Menu";
+import { Card } from "../../components/Card/Card";
 
 function Home() {
   return (
     <>
-      <header className="flex">
-        <Logo />
+      <header className="flex container_page">
+        <Logo variant="default"/>
         <Menu>
           <MenuItem icon={<House/>}>
             <p>Home</p>
           </MenuItem>
         </Menu>
         <div>
-          <button className="bg-(--bg-color) border-2 border-(--brand-primary) rounded-full px-5 py-3.5">
+          <button className="bg-(--brand-tertiary) border-2 border-(--brand-primary) rounded-full px-5 py-3.5">
             <a href="">Login</a>
           </button>
         </div>
       </header>
 
       <main>
-        <section>
-          <h1 className="title">Tech do Bem</h1>
-          <p className="text-2xl">
+        <section className="container_page my-24">
+          <h1 className="title text-center font-bold">Tech do Bem</h1>
+          <p className="text-2xl mb-4">
             A Tech do Bem é o apoio tecnológico que faltava para a Turma do Bem.{" "}
             <br />
             <br />
@@ -36,23 +37,49 @@ function Home() {
           </p>
         </section>
 
-        {/* <section>
-          <Card>
-            <h2 className="title2"></h2>
-            <p className="container text-2xl"></p>
-          </Card>
-          <Card>
-            <p className="container text-2xl"></p>
-            <h2 className="title2"></h2>
-          </Card>
-          <Card>
-            <h2 className="title2"></h2>
-            <p className="container text-2xl"></p>
-          </Card>
-        </section> */}
-
         <section>
-          <h3 className="title3">
+          <Card variant="primary">
+            <>
+              <h2 className="title2 mb-4">O PRIVIÉGIO DE PODER MUDAR VIDAS</h2>
+              <p className="text-2xl text-(--brand-tertiary)">
+                Para nós, a parceria com a Turma do Bem é mais do que uma relação profissional.
+                <span className="font-bold"> Acreditamos que dar nossas mãos é uma oportunidade única.</span> 
+              </p>
+            </>
+          </Card>
+
+          <Card variant="secondary">
+            <>
+              <h2 className="title2 mb-4">A COMPAIXÃO COMO VALOR</h2>
+              <p className="text-2xl text-(--brand-tertiary)">
+                Compaixão é um valor inegociável.
+                Não se trata de vender uma solução, mas de apresentar <span className="font-bold"> um caminho que todos possam atravessar juntos.</span>
+              </p>
+            </>
+          </Card>
+
+          <Card variant="primary">
+            <>
+              <h2 className="title2 mb-4">A TECNOLOGIA PARA IMPULSIONAR</h2>
+              <p className="text-2xl text-(--brand-tertiary)">
+                Ferramentas não substituem o calor humano.
+                Com a Tech do Bem não é diferente: somos human-first e não abrimos mão disso.
+                Por isso, nossa maior preocupação é introduzir mudanças que sejam significativas, mas sem perder a familiaridade.
+                A tecnologia, para nós, é isso:  <span className="font-bold"> propulsão para propósitos humanos.</span> 
+              </p>
+            </>
+          </Card>
+
+          <Card variant="secondary">
+            <div className="flex">
+              <h2 className="title2 h-fit my-auto text-center">ISSO É</h2>
+              <Logo variant="secondary"/>
+            </div>
+          </Card>
+        </section>
+
+        <section className="container_page my-24 text-center">
+          <h3 className="title3 font-bold mb-6">
             Porque, juntos, <br />
             somos mais fortes.
           </h3>
@@ -63,6 +90,8 @@ function Home() {
           </p>
         </section>
       </main>
+
+      {/* <Footer/>  */}
     </>
   );
 }

@@ -2,7 +2,10 @@
   /* Colors */
   --brand-primary: #da345d;
   --brand-secondary: #641226;
-  --bg-color: #f1f1f1;
+  --brand-tertiary: #f1f1f1;
+
+  --card-primary: rgb(100, 18, 38);
+  --card-secondary: rgb(48, 5, 14);
 
   --text-color: #232323;
   --text-secondary-color: #d4d4d4;
