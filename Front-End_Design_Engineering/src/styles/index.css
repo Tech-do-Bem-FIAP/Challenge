@@ -34,10 +34,10 @@ body {
   background-color: var(--bg-color);
 }
 
-a {
+/* a {
   text-decoration: none;
   color: var(--brand-primary);
-}
+} */
 
 @layer components {
   .title {
@@ -54,7 +54,10 @@ a {
 
   .title2 {
     font-size: 2rem;
-    background: -webkit-linear-gradient(var(--brand-primary), var(--brand-tertiary));
+    background: -webkit-linear-gradient(
+      var(--brand-primary),
+      var(--brand-tertiary)
+    );
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
