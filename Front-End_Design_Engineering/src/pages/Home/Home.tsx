@@ -1,51 +1,12 @@
-import {
-  House,
-  Info,
-  Phone,
-  Search,
-  TextAlignJustify,
-  UsersRound,
-} from "lucide-react";
 import { Logo } from "../../components/Logo/Logo";
-import { Menu, MenuItem } from "../../components/Menu/Menu";
 import { Card } from "../../components/Card/Card";
 import { Footer } from "../../components/Footer/Footer";
+import { Header } from "../../components/Header/Header";
 
 function Home() {
-  const openMenu = () => {
-    // CRIAR FUNÇÃO PARA ABERTURA DE MENU ATRAVÉS DE CLASSES
-  };
-
   return (
     <>
-      <header className="bg-linear-to-b from-black to-[#da345d] rounded-3xl flex container_page">
-        <Logo variant="default" />
-        <Menu variant="default">
-          <MenuItem icon={<House />}>
-            <p>Home</p>
-          </MenuItem>
-          <MenuItem icon={<Info />}>
-            <p>Sobre</p>
-          </MenuItem>
-          <MenuItem icon={<Phone />}>
-            <p>Contato</p>
-          </MenuItem>
-          <MenuItem icon={<UsersRound />}>
-            <p>Quem somos</p>
-          </MenuItem>
-          <MenuItem icon={<Search />}>
-            <p>FAQ</p>
-          </MenuItem>
-        </Menu>
-        <div>
-          <button className="text-(--brand-tertiary)" onClick={openMenu}>
-            {<TextAlignJustify />}
-          </button>
-          <button className="bg-(--brand-tertiary) border-2 border-(--brand-primary) rounded-full px-5 py-3.5 hidden">
-            <a href="">Login</a>
-          </button>
-        </div>
-      </header>
+      <Header />
 
       <main>
         <section className="container_page my-24">
