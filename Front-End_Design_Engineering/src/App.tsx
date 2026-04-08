@@ -6,10 +6,12 @@ import Contact from "./pages/Contact/Contact";
 import Faq from "./pages/Faq/Faq";
 import Who from "./pages/Who/Who";
 import Login from "./pages/Login/Login";
+import { ScrollToTop } from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />

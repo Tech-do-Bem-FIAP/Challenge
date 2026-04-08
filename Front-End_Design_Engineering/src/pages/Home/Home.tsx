@@ -72,7 +72,7 @@ function Home() {
           </Card>
 
           <Card variant="secondary">
-            <div className="flex">
+            <div className="flex justify-center">
               <h2 className="title2 h-fit my-auto text-center">ISSO É</h2>
               <Logo variant="secondary" />
             </div>
