@@ -9,15 +9,10 @@ import {
 import { Logo } from "../Logo/Logo";
 import { Menu, MenuItem } from "../Menu/Menu";
 import { Link } from "react-router";
-// import { useState } from "react";
+import { useState } from "react";
 
 export const Header = () => {
-  // Pesquisar como realizar a função para atualização do estado para que o menu seja aberto ou fechado.
-  // const [value, setValue] = useState(0);
-
-  // const openMenu = () => {
-  //     console.log(setValue(value + 1));
-  // };
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
     <header className="bg-linear-to-b from-black to-[#da345d] rounded-3xl mt-5 flex flex-col container_page">
@@ -26,8 +21,11 @@ export const Header = () => {
           <Logo variant="default" />
         </>
         <>
-          <button className="text-(--brand-tertiary) cursor-pointer max-w-26 lg:hidden">
-            {<TextAlignJustify />}
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="text-(--brand-tertiary) cursor-pointer max-w-26 lg:hidden"
+          >
+            {isOpen ? <TextAlignJustify /> : <TextAlignJustify />}
           </button>
           <div id="desktop-menu" className="hidden lg:flex">
             <Menu variant="default">
@@ -63,37 +61,39 @@ export const Header = () => {
         </>
       </div>
 
-      <div id="mobile-menu" className="lg:hidden">
-        <Menu variant="default">
-          <MenuItem icon={<House />}>
-            <Link to="/">Home</Link>
-          </MenuItem>
-          <MenuItem icon={<Info />}>
-            <Link to="/about">Sobre</Link>
-          </MenuItem>
-          <MenuItem icon={<Phone />}>
-            <Link to="/contact">Contato</Link>
-          </MenuItem>
-          <MenuItem icon={<UsersRound />}>
-            <Link to="/who">Quem somos</Link>
-          </MenuItem>
-          <MenuItem icon={<Search />}>
-            <Link to="/faq">FAQ</Link>
-          </MenuItem>
-        </Menu>
-        <div className="my-4">
-          <Menu>
-            <MenuItem>
-              <Link
-                to="/login"
-                className="bg-(--brand-tertiary) border-2 border-(--brand-primary) rounded-full px-5 py-3.5 text-(--brand-primary) lg:hidden"
-              >
-                Login
-              </Link>
+      {isOpen && (
+        <div id="mobile-menu" className="lg:hidden">
+          <Menu variant="default">
+            <MenuItem icon={<House />}>
+              <Link to="/">Home</Link>
+            </MenuItem>
+            <MenuItem icon={<Info />}>
+              <Link to="/about">Sobre</Link>
+            </MenuItem>
+            <MenuItem icon={<Phone />}>
+              <Link to="/contact">Contato</Link>
+            </MenuItem>
+            <MenuItem icon={<UsersRound />}>
+              <Link to="/who">Quem somos</Link>
+            </MenuItem>
+            <MenuItem icon={<Search />}>
+              <Link to="/faq">FAQ</Link>
             </MenuItem>
           </Menu>
+          <div className="my-4">
+            <Menu>
+              <MenuItem>
+                <Link
+                  to="/login"
+                  className="bg-(--brand-tertiary) border-2 border-(--brand-primary) rounded-full px-5 py-3.5 text-(--brand-primary) lg:hidden"
+                >
+                  Login
+                </Link>
+              </MenuItem>
+            </Menu>
+          </div>
         </div>
-      </div>
+      )}
     </header>
   );
 };
