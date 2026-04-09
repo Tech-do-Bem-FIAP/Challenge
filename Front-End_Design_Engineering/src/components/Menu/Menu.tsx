@@ -25,11 +25,9 @@ export const Menu = ({ children, variant = "default" }: MenuProps) => {
 
 export const MenuItem = ({ children, icon }: MenuItemProps) => {
   return (
-    <li>
-      <a className="flex gap-1 max-w-fit" href="">
-        {icon}
-        <span>{children}</span>
-      </a>
+    <li className="flex gap-1 items-center max-w-fit">
+      {icon}
+      <span>{children}</span>
     </li>
   );
 };

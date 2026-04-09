@@ -1,11 +1,12 @@
 import type { ReactElement } from "react";
 
-type CardVariant = "default" | "primary" | "secondary";
+type CardVariant = "default" | "primary" | "secondary" | "accent";
 
 const variants: Record<CardVariant, string> = {
-  default: "bg-transparent",
-  primary: "bg-(--card-primary)",
-  secondary: "bg-(--card-secondary)",
+  default: "bg-white border border-gray-200 rounded-xl shadow-sm",
+  primary: "bg-white border-l-4 border-l-[#da345d] border border-gray-200 rounded-xl shadow-sm",
+  secondary: "bg-[#641226]",
+  accent: "bg-linear-to-r from-[#641226] to-[#da345d]",
 };
 
 interface CardProps {
