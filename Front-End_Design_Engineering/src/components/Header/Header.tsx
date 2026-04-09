@@ -3,7 +3,8 @@ import {
   Info,
   Phone,
   Search,
-  TextAlignJustify,
+  Menu as MenuIcon,
+  X,
   UsersRound,
 } from "lucide-react";
 import { Logo } from "../Logo/Logo";
@@ -15,82 +16,72 @@ export const Header = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
-    <header className="bg-linear-to-b from-black to-[#da345d] rounded-3xl mt-5 flex flex-col container_page">
-      <div className="flex justify-between items-center mx-5">
-        <>
-          <Logo variant="default" />
-        </>
-        <>
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="text-(--brand-tertiary) cursor-pointer max-w-26 lg:hidden"
+    <header className="bg-linear-to-r from-[#641226] to-[#da345d] text-white sticky top-0 z-10 shadow-lg">
+      <div className="container_page flex justify-between items-center py-3">
+        <Logo variant="default" />
+
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="text-white cursor-pointer lg:hidden"
+          aria-label="Toggle menu"
+        >
+          {isOpen ? <X className="w-6 h-6" /> : <MenuIcon className="w-6 h-6" />}
+        </button>
+
+        <div className="hidden lg:flex items-center gap-8">
+          <Menu variant="default">
+            <MenuItem icon={<House className="w-4 h-4" />}>
+              <Link to="/" className="hover:opacity-80 transition-opacity">Home</Link>
+            </MenuItem>
+            <MenuItem icon={<Info className="w-4 h-4" />}>
+              <Link to="/about" className="hover:opacity-80 transition-opacity">Sobre</Link>
+            </MenuItem>
+            <MenuItem icon={<Phone className="w-4 h-4" />}>
+              <Link to="/contact" className="hover:opacity-80 transition-opacity">Contato</Link>
+            </MenuItem>
+            <MenuItem icon={<UsersRound className="w-4 h-4" />}>
+              <Link to="/who" className="hover:opacity-80 transition-opacity">Quem somos</Link>
+            </MenuItem>
+            <MenuItem icon={<Search className="w-4 h-4" />}>
+              <Link to="/faq" className="hover:opacity-80 transition-opacity">FAQ</Link>
+            </MenuItem>
+          </Menu>
+          <Link
+            to="/login"
+            className="bg-white text-[#da345d] rounded-full px-5 py-2 font-medium hover:bg-[#f1f1f1] transition-colors whitespace-nowrap"
           >
-            {isOpen ? <TextAlignJustify /> : <TextAlignJustify />}
-          </button>
-          <div id="desktop-menu" className="hidden lg:flex">
-            <Menu variant="default">
-              <MenuItem icon={<House />}>
-                <Link to="/">Home</Link>
-              </MenuItem>
-              <MenuItem icon={<Info />}>
-                <Link to="/about">Sobre</Link>
-              </MenuItem>
-              <MenuItem icon={<Phone />}>
-                <Link to="/contact">Contato</Link>
-              </MenuItem>
-              <MenuItem icon={<UsersRound />}>
-                <Link to="/who">Quem somos</Link>
-              </MenuItem>
-              <MenuItem icon={<Search />}>
-                <Link to="/faq">FAQ</Link>
-              </MenuItem>
-            </Menu>
-          </div>
-          <div className="hidden lg:flex">
-            <Menu>
-              <MenuItem>
-                <Link
-                  to="/login"
-                  className="bg-(--brand-tertiary) border border-(--brand-Link to=''rimary) rounded-full px-5 py-3.5 text-(--brand-primary)"
-                >
-                  Login
-                </Link>
-              </MenuItem>
-            </Menu>
-          </div>
-        </>
+            Entrar
+          </Link>
+        </div>
       </div>
 
       {isOpen && (
-        <div id="mobile-menu" className="lg:hidden">
+        <div className="lg:hidden container_page pb-4 border-t border-white/20">
           <Menu variant="default">
-            <MenuItem icon={<House />}>
-              <Link to="/">Home</Link>
+            <MenuItem icon={<House className="w-4 h-4" />}>
+              <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
             </MenuItem>
-            <MenuItem icon={<Info />}>
-              <Link to="/about">Sobre</Link>
+            <MenuItem icon={<Info className="w-4 h-4" />}>
+              <Link to="/about" onClick={() => setIsOpen(false)}>Sobre</Link>
             </MenuItem>
-            <MenuItem icon={<Phone />}>
-              <Link to="/contact">Contato</Link>
+            <MenuItem icon={<Phone className="w-4 h-4" />}>
+              <Link to="/contact" onClick={() => setIsOpen(false)}>Contato</Link>
             </MenuItem>
-            <MenuItem icon={<UsersRound />}>
-              <Link to="/who">Quem somos</Link>
+            <MenuItem icon={<UsersRound className="w-4 h-4" />}>
+              <Link to="/who" onClick={() => setIsOpen(false)}>Quem somos</Link>
             </MenuItem>
-            <MenuItem icon={<Search />}>
-              <Link to="/faq">FAQ</Link>
+            <MenuItem icon={<Search className="w-4 h-4" />}>
+              <Link to="/faq" onClick={() => setIsOpen(false)}>FAQ</Link>
             </MenuItem>
           </Menu>
-          <div className="my-4">
-            <Menu>
-              <MenuItem>
-                <Link
-                  to="/login"
-                  className="bg-(--brand-tertiary) border-2 border-(--brand-primary) rounded-full px-5 py-3.5 text-(--brand-primary) lg:hidden"
-                >
-                  Login
-                </Link>
-              </MenuItem>
-            </Menu>
+          <div className="px-4 mt-2">
+            <Link
+              to="/login"
+              onClick={() => setIsOpen(false)}
+              className="inline-block bg-white text-[#da345d] rounded-full px-5 py-2 font-medium"
+            >
+              Entrar
+            </Link>
           </div>
         </div>
       )}
