@@ -16,7 +16,6 @@ export const Input = ({
   fullWidth = false,
   type,
   placeholder,
-  noLabel = false,
   onChange,
   ...props
 }: InputProps) => {

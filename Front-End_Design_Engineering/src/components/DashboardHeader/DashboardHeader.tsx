@@ -1,7 +1,7 @@
-import { LogOut } from 'lucide-react';
-import { useNavigate } from 'react-router';
-import { useAuth } from '../../contexts/AuthContext';
-import logo from '../../assets/logo-tech-do-bem.webp';
+import { LogOut } from "lucide-react";
+import { useNavigate } from "react-router";
+import { useAuth } from "../../contexts/AuthContext";
+import logo from "../../assets/logo-tech-do-bem.webp";
 
 export function DashboardHeader() {
   const { user, logout } = useAuth();
@@ -9,11 +9,11 @@ export function DashboardHeader() {
 
   const handleLogout = () => {
     logout();
-    navigate('/login');
+    navigate("/login");
   };
 
   return (
-    <header className="bg-linear-to-r from-[#641226] to-[#da345d] text-white shadow-lg sticky top-0 z-10">
+    <header className="bg-linear-to-b from-(--brand-secondary) to-(--brand-primary) text-white shadow-lg sticky top-0 z-10">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img src={logo} alt="Tech do Bem" className="h-10 w-auto" />

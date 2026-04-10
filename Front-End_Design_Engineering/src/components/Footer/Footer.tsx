@@ -7,7 +7,7 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-linear-to-b from-[#641226] to-[#da345d]">
+    <footer className="bg-linear-to-b from-black to-(--brand-primary)">
       <div className="lg:flex lg:flex-col container_page">
         <div className="lg:flex">
           <section className="flex border-b lg:border-b-0 lg:border-r lg:mr-10">

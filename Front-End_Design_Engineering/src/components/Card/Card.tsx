@@ -4,9 +4,10 @@ type CardVariant = "default" | "primary" | "secondary" | "accent";
 
 const variants: Record<CardVariant, string> = {
   default: "bg-white border border-gray-200 rounded-xl shadow-sm",
-  primary: "bg-white border-l-4 border-l-[#da345d] border border-gray-200 rounded-xl shadow-sm",
-  secondary: "bg-[#641226]",
-  accent: "bg-linear-to-r from-[#641226] to-[#da345d]",
+  primary:
+    "bg-white border-l-4 border-l-(--brand-primary) border border-gray-200 rounded-xl shadow-sm",
+  secondary: "bg-(--brand-secondary)",
+  accent: "bg-linear-to-r from-(--brand-secondary) to-(--brand-primary)",
 };
 
 interface CardProps {

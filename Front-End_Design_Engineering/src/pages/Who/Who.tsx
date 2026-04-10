@@ -10,12 +10,13 @@ function Who() {
     <>
       <Header />
 
-      <main className="bg-[#f1f1f1] min-h-screen">
+      <main className="bg-(--brand-tertiary) min-h-screen">
         <section className="container_page py-16">
           <h1 className="title3 font-bold mb-2">Quem somos</h1>
-          <p className="text-[#232323] mb-10">
-            A Tech do Bem foi desenvolvida por três estudantes de Análise e Desenvolvimento de
-            Sistemas da FIAP, unidos pelo propósito de transformar vidas através da tecnologia.
+          <p className="text-(--text-color) mb-10">
+            A Tech do Bem foi desenvolvida por três estudantes de Análise e
+            Desenvolvimento de Sistemas da FIAP, unidos pelo propósito de
+            transformar vidas através da tecnologia.
           </p>
 
           <Biography

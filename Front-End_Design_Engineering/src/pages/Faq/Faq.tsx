@@ -7,10 +7,10 @@ function Faq() {
     <>
       <Header />
 
-      <main className="bg-[#f1f1f1] min-h-screen">
+      <main className="bg-(--brand-tertiary) min-h-screen">
         <section className="container_page py-16">
           <h1 className="title3 font-bold mb-2">Perguntas frequentes (FAQ)</h1>
-          <p className="text-[#232323] mb-10">
+          <p className="text-(--text-color) mb-10">
             Tire suas dúvidas sobre a plataforma Tech do Bem.
           </p>
 

@@ -14,23 +14,26 @@ function Contact() {
     <>
       <Header />
 
-      <main className="bg-[#f1f1f1] min-h-screen">
+      <main className="bg-(--brand-tertiary) min-h-screen">
         <section className="container_page py-16">
           <h1 className="title3 font-bold mb-2">Fale conosco</h1>
-          <p className="text-[#232323] mb-10">
-            Em caso de dúvidas ou para mais informações, entre em contato por um dos canais abaixo.
+          <p className="text-(--text-color) mb-10">
+            Em caso de dúvidas ou para mais informações, entre em contato por um
+            dos canais abaixo.
           </p>
 
           <div className="grid gap-4 sm:grid-cols-2">
             {contacts.map(({ label, email }) => (
               <div
                 key={email}
-                className="bg-white border border-gray-200 border-l-4 border-l-[#da345d] rounded-xl shadow-sm p-6 flex items-start gap-4"
+                className="bg-white border border-gray-200 border-l-4 border-l-(--brand-primary) rounded-xl shadow-sm p-6 flex items-start gap-4"
               >
-                <Mail className="w-5 h-5 text-[#da345d] mt-0.5 shrink-0" />
+                <Mail className="w-5 h-5 text-(--brand-primary) mt-0.5 shrink-0" />
                 <div>
-                  <p className="font-semibold text-[#641226] mb-1">{label}</p>
-                  <p className="text-[#232323] text-sm">{email}</p>
+                  <p className="font-semibold text-(--brand-secondary) mb-1">
+                    {label}
+                  </p>
+                  <p className="text-(--text-color) text-sm">{email}</p>
                 </div>
               </div>
             ))}
