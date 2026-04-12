@@ -1,0 +1,8 @@
+@theme {
+  --color-brand-primary: var(--brand-primary);
+  --brand-secondary: var(--brand-secondary);
+  --brand-tertiary: var(--brand-tertiary);
+
+  --text-color: var(--text-color);
+  --text-secondary-color: var(--text-secondary-color);
+}
