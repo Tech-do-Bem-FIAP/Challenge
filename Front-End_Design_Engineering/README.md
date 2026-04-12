@@ -52,9 +52,9 @@ A plataforma foi desenvolvida para ser o principal ponto de contato digital da o
 
 <!-- Substitua pelas imagens reais do projeto -->
 
-|                            Página Inicial                            |                            Página de Login                             |                            Sobre o Projeto                             |
-| :------------------------------------------------------------------: | :--------------------------------------------------------------------: | :--------------------------------------------------------------------: |
-| ![Home](https://via.placeholder.com/280x160/0066CC/FFFFFF?text=Home) | ![Login](https://via.placeholder.com/280x160/0066CC/FFFFFF?text=Login) | ![Sobre](https://via.placeholder.com/280x160/0066CC/FFFFFF?text=About) |
+|                                                              Página Inicial                                                               |                                                          Página de Login                                                          |                                                                       Dashboard                                                                       |
+| :---------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![Home](https://github.com/Tech-do-Bem-FIAP/Challenge/blob/React/Front-End_Design_Engineering/src/assets/pagina-inicial-tdb.png?raw=true) | ![Login](https://github.com/Tech-do-Bem-FIAP/Challenge/blob/React/Front-End_Design_Engineering/src/assets/login-tdb.png?raw=true) | ![Dashboard](https://github.com/Tech-do-Bem-FIAP/Challenge/blob/React/Front-End_Design_Engineering/src/assets/dashboard-colaborador-tdb.png?raw=true) |
 
 </div>
 
