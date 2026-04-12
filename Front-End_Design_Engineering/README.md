@@ -1,7 +1,7 @@
 <div align="center">
 
 <img src="https://img.shields.io/badge/FIAP-Challenge-ED1C24?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMiAxNWwtNS01IDEuNDEtMS40MUwxMCAxNC4xN2w3LjU5LTcuNTlMMTkgOGwtOSA5eiIvPjwvc3ZnPg==" />
-<img src="https://img.shields.io/badge/Sprint-3%20%26%204-0066CC?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Sprint-3-0066CC?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Turma-1TDSPR-00AA44?style=for-the-badge" />
 
 <br/><br/>
