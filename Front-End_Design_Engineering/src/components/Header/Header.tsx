@@ -10,10 +10,18 @@ import {
 import { Logo } from "../Logo/Logo";
 import { Menu, MenuItem } from "../Menu/Menu";
 import { Link } from "react-router";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-export const Header = () => {
+export const Header = (): JSX.Element => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setIsOpen(false);
+    };
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, []);
 
   return (
     <header className="bg-linear-to-b from-black to-(--brand-primary) text-white sticky top-0 z-10 shadow-lg">
@@ -23,7 +31,9 @@ export const Header = () => {
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="text-white cursor-pointer lg:hidden"
-          aria-label="Toggle menu"
+          aria-label={isOpen ? "Fechar menu" : "Abrir menu"}
+          aria-expanded={isOpen}
+          aria-controls="mobile-menu"
         >
           {isOpen ? (
             <X className="w-6 h-6" />
@@ -73,7 +83,7 @@ export const Header = () => {
       </div>
 
       {isOpen && (
-        <div className="lg:hidden container_page pb-4 border-t border-white/20">
+        <div id="mobile-menu" className="lg:hidden container_page pb-4 border-t border-white/20">
           <Menu variant="default">
             <MenuItem icon={<House className="w-4 h-4" />}>
               <Link to="/" onClick={() => setIsOpen(false)}>
