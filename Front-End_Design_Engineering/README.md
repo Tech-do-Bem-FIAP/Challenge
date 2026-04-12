@@ -170,7 +170,7 @@ Acesse em: **http://localhost:5173**
       </a>
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/Tech-do-Bem-FIAP/Challenge/React/Front-End_Design_Engineering/src/assets/fotoLucasCampanha.png" width="100px" style="border-radius:50%" /><br/>
+      <img src="https://github.com/Tech-do-Bem-FIAP/Challenge/blob/React/Front-End_Design_Engineering/src/assets/FotoLucasCampanha.png?raw=true" width="100px" style="border-radius:50%" /><br/>
       <strong>Lucas Campanhã dos Santos</strong><br/>
       <sub>RM: 566815 | Turma: 1TDSPR</sub><br/><br/>
       <sub>Advogado de formação, agrega visão interdisciplinar ao projeto, utilizando tecnologia como ferramenta para transformar vidas reais.</sub><br/><br/>
