@@ -91,7 +91,7 @@ function Login() {
                 type="password"
                 placeholder="••••••"
                 {...register("senha", { required: "Informe a senha." })}
-                className="w-full px-4 py-2.5 bg-(--brand-tertiary) border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-(--brand-priamry) focus:border-transparent"
+                className="w-full px-4 py-2.5 bg-(--brand-tertiary) border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-(--brand-primary) focus:border-transparent"
               />
               {errors.senha && (
                 <p className="text-xs text-red-600 mt-1">

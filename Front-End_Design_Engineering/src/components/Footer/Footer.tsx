@@ -3,7 +3,7 @@ import { Logo } from "../Logo/Logo";
 import { Menu, MenuItem } from "../Menu/Menu";
 import { Link } from "react-router";
 
-export const Footer = () => {
+export const Footer = (): JSX.Element => {
   const currentYear = new Date().getFullYear();
 
   return (
@@ -12,29 +12,31 @@ export const Footer = () => {
         <div className="lg:flex">
           <section className="flex border-b lg:border-b-0 lg:border-r lg:mr-10">
             <div className="mx-auto lg:mx-10">
-              <a href="./index.html">
+              <Link to="/">
                 <Logo variant="secondary" />
-              </a>
+              </Link>
             </div>
           </section>
 
-          <Menu variant="footer">
-            <MenuItem icon={<House />}>
-              <Link to="/">Home</Link>
-            </MenuItem>
-            <MenuItem icon={<Info />}>
-              <Link to="/about">Sobre</Link>
-            </MenuItem>
-            <MenuItem icon={<Phone />}>
-              <Link to="/contact">Contato</Link>
-            </MenuItem>
-            <MenuItem icon={<UsersRound />}>
-              <Link to="/who">Quem somos</Link>
-            </MenuItem>
-            <MenuItem icon={<Search />}>
-              <Link to="/faq">FAQ</Link>
-            </MenuItem>
-          </Menu>
+          <nav aria-label="Navegação do rodapé">
+            <Menu variant="footer">
+              <MenuItem icon={<House />}>
+                <Link to="/">Home</Link>
+              </MenuItem>
+              <MenuItem icon={<Info />}>
+                <Link to="/about">Sobre</Link>
+              </MenuItem>
+              <MenuItem icon={<Phone />}>
+                <Link to="/contact">Contato</Link>
+              </MenuItem>
+              <MenuItem icon={<UsersRound />}>
+                <Link to="/who">Quem somos</Link>
+              </MenuItem>
+              <MenuItem icon={<Search />}>
+                <Link to="/faq">FAQ</Link>
+              </MenuItem>
+            </Menu>
+          </nav>
         </div>
 
         <div className="">
