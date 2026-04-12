@@ -7,7 +7,7 @@ interface ProtectedRouteProps {
   role: UserRole;
 }
 
-export function ProtectedRoute({ children, role }: ProtectedRouteProps) {
+export function ProtectedRoute({ children, role }: ProtectedRouteProps): JSX.Element {
   const { user } = useAuth();
 
   if (!user) return <Navigate to="/login" replace />;
