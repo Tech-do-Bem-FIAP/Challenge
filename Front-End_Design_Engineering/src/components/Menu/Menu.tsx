@@ -19,11 +19,11 @@ interface MenuItemProps {
   icon?: ReactElement;
 }
 
-export const Menu = ({ children, variant = "default" }: MenuProps) => {
-  return <ul className={`${variants[variant]}`}>{children}</ul>;
+export const Menu = ({ children, variant = "default" }: MenuProps): JSX.Element => {
+  return <ul className={variants[variant]}>{children}</ul>;
 };
 
-export const MenuItem = ({ children, icon }: MenuItemProps) => {
+export const MenuItem = ({ children, icon }: MenuItemProps): JSX.Element => {
   return (
     <li className="flex gap-1 items-center max-w-fit">
       {icon}
