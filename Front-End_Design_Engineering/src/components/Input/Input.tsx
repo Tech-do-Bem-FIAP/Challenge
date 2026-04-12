@@ -16,26 +16,21 @@ export const Input = ({
   fullWidth = false,
   type,
   placeholder,
+  noLabel = false,
   onChange,
   ...props
-}: InputProps) => {
+}: InputProps): JSX.Element => {
   return (
     <div className={`${fullWidth ? "w-full" : "min-w-3xs"}`}>
-      <label htmlFor={id} className="">
-        {label}
-      </label>
+      {!noLabel && (
+        <label htmlFor={id} className="block">
+          {label}
+        </label>
+      )}
       <input
         id={id}
         name={name}
-        className="
-          p-2.5
-          mt-2.5
-
-          border-transparent
-          rounded-xl
-
-          min-w-fit
-        "
+        className="block p-2.5 mt-2.5 border-transparent rounded-xl min-w-fit"
         type={type}
         placeholder={placeholder}
         onChange={onChange}
