@@ -54,7 +54,7 @@ A plataforma foi desenvolvida para ser o principal ponto de contato digital da o
 
 |                                                              Página Inicial                                                               |                                                          Página de Login                                                          |                                                                       Dashboard                                                                       |
 | :---------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------: |
-| ![Home](https://github.com/Tech-do-Bem-FIAP/Challenge/blob/React/Front-End_Design_Engineering/src/assets/pagina-inicial-tdb.png?raw=true) | ![Login](https://github.com/Tech-do-Bem-FIAP/Challenge/blob/React/Front-End_Design_Engineering/src/assets/login-tdb.png?raw=true) | ![Dashboard](https://github.com/Tech-do-Bem-FIAP/Challenge/blob/React/Front-End_Design_Engineering/src/assets/dashboard-colaborador-tdb.png?raw=true) |
+| ![Home](https://github.com/Tech-do-Bem-FIAP/Challenge/blob/main/Front-End_Design_Engineering/src/assets/pagina-inicial-tdb.png?raw=true) | ![Login](https://github.com/Tech-do-Bem-FIAP/Challenge/blob/main/Front-End_Design_Engineering/src/assets/login-tdb.png?raw=true) | ![Dashboard](https://github.com/Tech-do-Bem-FIAP/Challenge/blob/main/Front-End_Design_Engineering/src/assets/dashboard-colaborador-tdb.png?raw=true) |
 
 </div>
 
@@ -158,38 +158,38 @@ Acesse em: **http://localhost:5173**
 <table>
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/Tech-do-Bem-FIAP/Challenge/React/Front-End_Design_Engineering/src/assets/fotoHugo.png" width="100px" style="border-radius:50%" /><br/>
+      <img src="https://raw.githubusercontent.com/Tech-do-Bem-FIAP/Challenge/main/Front-End_Design_Engineering/src/assets/fotoHugo.png" width="100px" style="border-radius:50%" /><br/>
       <strong>Hugo Souza de Jesus</strong><br/>
       <sub>RM: 568542 | Turma: 1TDSPR</sub><br/><br/>
       <sub>Focado em experiência de usuário, une usabilidade e design moderno com aspecto humano. Responsável por trazer inovações à equipe.</sub><br/><br/>
-      <a href="https://www.linkedin.com/in/SEU_LINKEDIN">
+      <a href="https://www.linkedin.com/in/hugo-souza-34482222a">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
       </a>
-      <a href="https://github.com/SEU_GITHUB">
+      <a href="https://github.com/hgsouz">
         <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
       </a>
     </td>
     <td align="center">
-      <img src="https://github.com/Tech-do-Bem-FIAP/Challenge/blob/React/Front-End_Design_Engineering/src/assets/FotoLucasCampanha.png?raw=true" width="100px" style="border-radius:50%" /><br/>
+      <img src="https://github.com/Tech-do-Bem-FIAP/Challenge/blob/main/Front-End_Design_Engineering/src/assets/FotoLucasCampanha.png?raw=true" width="100px" style="border-radius:50%" /><br/>
       <strong>Lucas Campanhã dos Santos</strong><br/>
       <sub>RM: 566815 | Turma: 1TDSPR</sub><br/><br/>
       <sub>Advogado de formação, agrega visão interdisciplinar ao projeto, utilizando tecnologia como ferramenta para transformar vidas reais.</sub><br/><br/>
-      <a href="https://www.linkedin.com/in/SEU_LINKEDIN">
+      <a href="https://www.linkedin.com/in/lucas-campanh%C3%A3-342707193/">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
       </a>
-      <a href="https://github.com/SEU_GITHUB">
+      <a href="https://github.com/Labs-LCS">
         <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
       </a>
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/Tech-do-Bem-FIAP/Challenge/React/Front-End_Design_Engineering/src/assets/fotoLucasPompeu.png" width="100px" style="border-radius:50%" /><br/>
+      <img src="https://raw.githubusercontent.com/Tech-do-Bem-FIAP/Challenge/main/Front-End_Design_Engineering/src/assets/fotoLucasPompeu.png" width="100px" style="border-radius:50%" /><br/>
       <strong>Lucas Marcelino Pompeu</strong><br/>
       <sub>RM: 567010 | Turma: 1TDSPR</sub><br/><br/>
       <sub>Com experiência em ONGs e formação na área da saúde, contribui com empatia e sabedoria de quem conhece as dores do setor.</sub><br/><br/>
-      <a href="https://www.linkedin.com/in/SEU_LINKEDIN">
+      <a href="https://www.linkedin.com/in/lucaspompeu/">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
       </a>
-      <a href="https://github.com/SEU_GITHUB">
+      <a href="https://github.com/PompeuDev">
         <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
       </a>
     </td>
