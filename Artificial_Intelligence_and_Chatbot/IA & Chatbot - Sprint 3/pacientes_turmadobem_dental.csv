@@ -1,0 +1,501 @@
+id_paciente,idade,sexo,regiao,renda_familiar,escolaridade,ultima_consulta_anos,num_dentes_cariados,num_dentes_perdidos,dor_atual,sangramento_gengival,mobilidade_dentaria,abscesso,dificuldade_mastigar,escovacao_diaria_vezes,uso_fio_dental,fumante,diabetes,tratamento_urgente
+PAC0001,34,Feminino,Zona Sul,Até 1 SM,Fundamental completo,8,7,3,1,1,0,0,0,0,0,0,0,1
+PAC0002,80,Feminino,Zona Norte,Até 1 SM,Fundamental completo,7,2,2,1,0,1,0,0,2,0,0,0,1
+PAC0003,59,Masculino,Centro,2-3 SM,Sem escolaridade,5,3,3,0,0,0,0,1,2,0,0,1,0
+PAC0004,50,Feminino,Zona Norte,1-2 SM,Fundamental incompleto,10,3,2,1,1,0,0,0,1,0,0,0,1
+PAC0005,19,Feminino,Zona Sul,1-2 SM,Fundamental incompleto,2,4,2,0,1,0,1,1,2,1,0,0,1
+PAC0006,19,Masculino,Zona Oeste,1-2 SM,Fundamental incompleto,1,1,2,1,0,0,0,0,2,0,0,0,1
+PAC0007,10,Feminino,Zona Sul,1-2 SM,Fundamental completo,8,5,2,0,1,1,0,1,2,0,0,0,1
+PAC0008,72,Feminino,Zona Oeste,1-2 SM,Fundamental completo,4,2,3,0,1,1,0,0,2,0,1,0,0
+PAC0009,50,Feminino,Zona Norte,Até 1 SM,Fundamental completo,8,3,2,0,0,0,1,0,0,0,1,0,0
+PAC0010,57,Feminino,Zona Leste,Até 1 SM,Médio incompleto,9,3,2,1,1,0,0,0,3,0,0,0,1
+PAC0011,6,Feminino,Zona Norte,Até 1 SM,Médio incompleto,1,5,3,0,1,1,0,0,3,1,0,0,0
+PAC0012,82,Masculino,Zona Norte,2-3 SM,Médio incompleto,9,2,5,1,1,0,1,0,3,1,0,0,1
+PAC0013,68,Feminino,Centro,2-3 SM,Médio completo,4,4,3,0,0,1,0,1,0,0,0,0,0
+PAC0014,23,Feminino,Zona Norte,Sem renda,Sem escolaridade,5,1,0,1,1,0,0,0,3,0,0,1,1
+PAC0015,20,Masculino,Zona Leste,1-2 SM,Fundamental incompleto,6,2,2,1,0,0,0,0,3,1,1,0,1
+PAC0016,21,Masculino,Zona Sul,2-3 SM,Sem escolaridade,9,4,3,1,1,1,0,0,3,0,0,1,1
+PAC0017,29,Masculino,Zona Sul,Até 1 SM,Fundamental completo,0,5,2,1,1,0,0,1,0,0,1,0,1
+PAC0018,44,Feminino,Zona Oeste,1-2 SM,Médio completo,5,4,3,1,0,0,0,1,2,0,0,1,1
+PAC0019,38,Feminino,Zona Norte,2-3 SM,Fundamental incompleto,6,4,2,0,1,0,0,1,3,1,0,0,0
+PAC0020,28,Masculino,Zona Leste,Sem renda,Médio completo,7,4,0,1,1,0,0,0,2,0,0,0,1
+PAC0021,51,Feminino,Centro,1-2 SM,Sem escolaridade,7,4,2,0,1,0,0,1,2,1,0,0,0
+PAC0022,17,Masculino,Zona Leste,Até 1 SM,Médio completo,2,4,1,1,0,1,0,1,3,1,0,0,1
+PAC0023,28,Feminino,Centro,2-3 SM,Fundamental incompleto,3,0,2,1,0,1,0,1,2,0,0,0,1
+PAC0024,33,Feminino,Zona Norte,2-3 SM,Fundamental incompleto,4,2,2,0,1,0,1,0,2,1,0,0,1
+PAC0025,40,Feminino,Zona Sul,2-3 SM,Fundamental completo,8,5,4,0,0,0,0,0,2,1,0,1,0
+PAC0026,64,Feminino,Zona Sul,Até 1 SM,Fundamental incompleto,3,5,0,1,1,0,0,0,3,0,0,0,0
+PAC0027,22,Masculino,Zona Oeste,2-3 SM,Fundamental incompleto,2,3,2,1,0,0,0,0,0,0,0,0,0
+PAC0028,44,Masculino,Centro,1-2 SM,Fundamental incompleto,10,2,0,1,0,0,0,1,2,0,1,0,1
+PAC0029,49,Masculino,Zona Sul,Até 1 SM,Médio incompleto,0,1,0,1,0,1,0,0,2,0,0,0,1
+PAC0030,9,Feminino,Zona Leste,1-2 SM,Fundamental completo,10,4,1,1,0,0,0,0,3,0,0,0,1
+PAC0031,50,Feminino,Zona Norte,Sem renda,Fundamental incompleto,6,8,2,1,1,1,0,1,2,0,0,0,1
+PAC0032,20,Feminino,Zona Leste,1-2 SM,Fundamental completo,8,2,0,0,0,0,0,1,3,0,1,0,0
+PAC0033,11,Feminino,Zona Leste,Até 1 SM,Médio incompleto,3,4,1,0,0,0,0,0,3,1,0,0,0
+PAC0034,80,Feminino,Centro,Sem renda,Fundamental incompleto,0,6,4,1,0,0,0,1,0,0,0,1,1
+PAC0035,81,Feminino,Zona Leste,Sem renda,Fundamental incompleto,7,5,3,1,1,0,0,0,2,0,0,0,1
+PAC0036,66,Feminino,Zona Sul,1-2 SM,Fundamental incompleto,8,3,4,1,0,0,0,1,0,0,1,1,1
+PAC0037,29,Feminino,Zona Norte,Até 1 SM,Fundamental incompleto,7,2,2,0,1,1,0,1,1,0,1,0,1
+PAC0038,14,Masculino,Zona Norte,1-2 SM,Médio incompleto,2,4,2,0,1,0,0,0,2,0,0,0,0
+PAC0039,56,Masculino,Zona Norte,Sem renda,Fundamental incompleto,7,2,2,0,1,1,0,1,3,0,0,0,0
+PAC0040,39,Masculino,Zona Sul,Até 1 SM,Fundamental completo,7,1,1,0,1,0,0,1,3,0,0,0,0
+PAC0041,16,Feminino,Zona Oeste,Até 1 SM,Médio incompleto,6,5,1,0,1,1,0,0,1,1,0,0,0
+PAC0042,42,Feminino,Zona Leste,1-2 SM,Fundamental incompleto,7,2,1,1,1,0,1,0,0,1,0,0,1
+PAC0043,8,Masculino,Zona Leste,Até 1 SM,Fundamental completo,8,4,1,0,0,1,0,1,2,0,0,0,1
+PAC0044,76,Feminino,Zona Norte,1-2 SM,Fundamental incompleto,6,5,3,1,0,0,0,0,2,1,1,0,1
+PAC0045,26,Feminino,Zona Oeste,2-3 SM,Médio completo,1,4,2,0,0,1,1,0,1,1,0,1,1
+PAC0046,54,Masculino,Zona Oeste,1-2 SM,Fundamental completo,5,5,2,1,1,1,0,1,3,0,0,0,1
+PAC0047,30,Masculino,Zona Norte,Até 1 SM,Médio incompleto,1,4,2,0,1,0,0,1,3,1,0,0,0
+PAC0048,44,Feminino,Zona Oeste,Sem renda,Fundamental completo,4,3,0,0,1,0,0,0,2,1,0,0,0
+PAC0049,46,Feminino,Zona Leste,2-3 SM,Sem escolaridade,4,1,1,0,0,0,0,0,3,0,1,0,0
+PAC0050,21,Feminino,Zona Norte,Sem renda,Fundamental completo,1,0,4,1,1,1,0,0,2,0,0,0,1
+PAC0051,82,Feminino,Zona Leste,2-3 SM,Médio completo,3,4,2,1,0,0,0,0,2,0,0,0,0
+PAC0052,63,Feminino,Zona Leste,Até 1 SM,Fundamental completo,1,0,4,1,0,0,0,0,2,0,0,0,0
+PAC0053,79,Feminino,Zona Norte,2-3 SM,Médio incompleto,8,3,4,0,0,0,0,1,1,1,0,1,0
+PAC0054,74,Feminino,Centro,1-2 SM,Médio completo,9,1,2,1,0,0,0,0,3,0,1,0,1
+PAC0055,50,Feminino,Zona Oeste,2-3 SM,Fundamental incompleto,1,3,1,0,1,1,0,0,2,1,0,0,0
+PAC0056,77,Masculino,Zona Leste,Até 1 SM,Fundamental incompleto,10,2,3,0,0,0,0,0,2,1,1,0,0
+PAC0057,13,Masculino,Zona Leste,1-2 SM,Fundamental completo,5,6,3,1,0,0,0,1,2,0,0,0,1
+PAC0058,21,Masculino,Zona Sul,Até 1 SM,Fundamental incompleto,3,3,1,1,1,1,0,0,0,1,0,0,1
+PAC0059,9,Feminino,Zona Leste,Até 1 SM,Médio incompleto,1,4,1,0,1,0,0,0,1,0,0,0,0
+PAC0060,30,Feminino,Zona Leste,1-2 SM,Médio completo,5,2,4,0,1,0,0,0,2,0,1,0,0
+PAC0061,35,Feminino,Zona Norte,2-3 SM,Fundamental incompleto,8,4,1,1,0,0,0,1,2,0,0,0,1
+PAC0062,27,Masculino,Zona Leste,2-3 SM,Fundamental incompleto,7,2,4,0,1,0,0,1,1,0,0,0,0
+PAC0063,68,Masculino,Zona Oeste,1-2 SM,Médio incompleto,1,2,0,0,1,0,0,0,2,0,0,0,0
+PAC0064,33,Masculino,Zona Leste,Até 1 SM,Fundamental incompleto,1,4,3,1,0,1,0,0,2,1,0,0,1
+PAC0065,27,Masculino,Zona Norte,Até 1 SM,Médio incompleto,4,7,3,1,1,0,0,0,2,1,0,0,1
+PAC0066,46,Feminino,Zona Oeste,1-2 SM,Fundamental incompleto,3,4,3,1,0,0,0,0,2,0,0,0,0
+PAC0067,18,Masculino,Zona Norte,Até 1 SM,Médio incompleto,3,1,2,1,0,0,0,0,3,1,1,0,1
+PAC0068,65,Masculino,Zona Sul,Sem renda,Sem escolaridade,3,3,1,1,1,0,0,0,2,1,0,1,0
+PAC0069,11,Feminino,Zona Norte,Até 1 SM,Fundamental completo,8,4,0,0,1,1,0,0,2,0,1,1,1
+PAC0070,83,Masculino,Zona Sul,Até 1 SM,Fundamental completo,9,2,2,1,0,0,1,0,1,0,1,0,1
+PAC0071,63,Feminino,Zona Oeste,Até 1 SM,Fundamental completo,4,5,2,0,1,0,0,0,1,1,0,0,0
+PAC0072,22,Feminino,Zona Leste,Até 1 SM,Fundamental incompleto,9,2,2,0,1,0,1,1,0,0,0,0,1
+PAC0073,5,Masculino,Zona Norte,Sem renda,Médio incompleto,3,5,3,1,1,0,1,0,2,0,0,0,1
+PAC0074,67,Feminino,Zona Oeste,Sem renda,Médio completo,5,3,3,0,0,0,0,0,1,0,0,0,0
+PAC0075,57,Feminino,Zona Oeste,2-3 SM,Fundamental incompleto,2,3,1,0,1,0,0,0,1,1,0,0,0
+PAC0076,59,Feminino,Zona Oeste,Até 1 SM,Sem escolaridade,6,6,2,0,0,0,0,1,3,0,1,0,0
+PAC0077,63,Masculino,Zona Norte,Até 1 SM,Sem escolaridade,10,4,1,0,1,1,1,1,1,0,0,0,1
+PAC0078,11,Feminino,Zona Leste,1-2 SM,Fundamental completo,6,9,2,1,0,0,0,0,1,0,0,0,1
+PAC0079,33,Feminino,Centro,Até 1 SM,Fundamental completo,4,3,0,1,0,1,1,0,1,1,0,0,1
+PAC0080,15,Masculino,Zona Oeste,2-3 SM,Fundamental completo,6,2,1,1,1,1,0,0,3,0,1,0,1
+PAC0081,71,Masculino,Zona Norte,1-2 SM,Fundamental incompleto,1,4,1,0,0,0,0,0,1,0,0,0,0
+PAC0082,51,Feminino,Zona Norte,Sem renda,Fundamental incompleto,9,6,2,0,0,0,0,0,2,1,0,0,0
+PAC0083,31,Feminino,Zona Leste,Até 1 SM,Fundamental completo,5,4,1,0,0,0,0,1,2,0,0,0,0
+PAC0084,10,Masculino,Centro,2-3 SM,Fundamental completo,4,2,1,0,1,0,0,0,2,1,0,0,0
+PAC0085,29,Feminino,Zona Leste,2-3 SM,Médio completo,5,6,2,0,0,1,0,1,2,1,1,0,1
+PAC0086,30,Masculino,Zona Leste,Até 1 SM,Fundamental incompleto,6,2,4,1,1,0,1,0,3,1,1,0,1
+PAC0087,59,Masculino,Zona Norte,1-2 SM,Médio incompleto,1,1,0,1,0,0,0,1,0,0,0,0,1
+PAC0088,52,Masculino,Zona Leste,Até 1 SM,Fundamental incompleto,6,1,1,1,0,0,0,1,1,0,0,0,0
+PAC0089,74,Masculino,Zona Oeste,2-3 SM,Fundamental incompleto,3,3,4,0,0,0,0,0,1,1,0,0,0
+PAC0090,41,Masculino,Zona Sul,Até 1 SM,Médio incompleto,7,9,2,1,0,0,0,0,1,1,0,0,1
+PAC0091,16,Masculino,Zona Oeste,2-3 SM,Médio incompleto,8,2,1,0,0,1,0,0,1,0,0,0,0
+PAC0092,58,Feminino,Centro,1-2 SM,Médio completo,8,7,1,0,0,0,0,0,1,1,0,0,0
+PAC0093,61,Masculino,Zona Norte,1-2 SM,Fundamental incompleto,5,2,3,1,1,1,0,0,2,0,0,0,1
+PAC0094,47,Masculino,Zona Leste,Até 1 SM,Fundamental incompleto,5,5,1,1,1,0,0,1,2,0,1,0,1
+PAC0095,62,Feminino,Zona Sul,Até 1 SM,Médio incompleto,2,0,3,0,0,0,0,0,2,0,0,0,0
+PAC0096,42,Feminino,Zona Oeste,Até 1 SM,Fundamental completo,7,3,3,0,0,0,0,1,2,1,1,0,0
+PAC0097,44,Feminino,Zona Leste,Até 1 SM,Fundamental incompleto,3,9,2,0,1,0,0,0,1,0,0,0,0
+PAC0098,38,Masculino,Zona Leste,Até 1 SM,Sem escolaridade,5,6,2,1,0,0,0,1,1,0,0,0,1
+PAC0099,7,Masculino,Zona Oeste,1-2 SM,Sem escolaridade,3,7,4,1,0,1,0,0,2,1,1,0,1
+PAC0100,15,Masculino,Zona Sul,Até 1 SM,Médio completo,2,1,1,1,1,1,0,1,0,0,0,0,1
+PAC0101,7,Masculino,Centro,Sem renda,Fundamental incompleto,6,4,1,0,1,0,0,0,0,0,0,0,0
+PAC0102,52,Masculino,Zona Leste,2-3 SM,Fundamental incompleto,1,5,2,0,1,0,0,0,2,0,0,1,0
+PAC0103,30,Masculino,Zona Norte,2-3 SM,Fundamental incompleto,7,4,1,1,0,0,1,1,3,0,0,0,1
+PAC0104,43,Masculino,Zona Leste,2-3 SM,Fundamental incompleto,3,3,3,1,0,1,1,0,2,1,1,1,1
+PAC0105,76,Masculino,Zona Oeste,2-3 SM,Sem escolaridade,0,8,3,0,1,0,0,1,0,1,1,0,0
+PAC0106,25,Feminino,Zona Sul,Até 1 SM,Fundamental completo,5,2,4,1,0,1,0,1,3,0,0,0,1
+PAC0107,36,Masculino,Zona Oeste,Até 1 SM,Sem escolaridade,0,4,1,1,1,0,1,0,2,1,0,0,1
+PAC0108,61,Masculino,Centro,1-2 SM,Médio incompleto,3,1,1,1,1,0,0,0,2,0,0,0,1
+PAC0109,24,Feminino,Zona Sul,1-2 SM,Fundamental incompleto,7,4,1,1,0,1,0,1,3,0,0,0,1
+PAC0110,12,Feminino,Centro,Até 1 SM,Fundamental completo,1,4,1,1,1,0,0,0,2,0,0,0,0
+PAC0111,28,Masculino,Zona Norte,1-2 SM,Médio completo,8,3,2,1,1,0,0,1,1,0,0,0,1
+PAC0112,19,Feminino,Zona Norte,Até 1 SM,Médio incompleto,0,5,0,1,1,0,1,1,2,0,0,0,1
+PAC0113,78,Feminino,Zona Norte,Até 1 SM,Fundamental completo,3,1,1,0,0,0,0,0,2,0,0,0,0
+PAC0114,66,Masculino,Zona Oeste,Até 1 SM,Fundamental incompleto,7,5,2,0,0,0,0,0,2,0,0,0,0
+PAC0115,52,Feminino,Zona Leste,1-2 SM,Fundamental incompleto,3,1,4,0,0,0,0,1,2,0,0,0,0
+PAC0116,72,Feminino,Zona Norte,1-2 SM,Médio incompleto,1,2,0,1,0,1,0,0,3,0,0,0,1
+PAC0117,66,Masculino,Zona Sul,Sem renda,Médio completo,4,1,0,0,1,0,1,0,3,0,1,0,0
+PAC0118,21,Masculino,Zona Leste,2-3 SM,Médio incompleto,3,5,1,1,0,1,0,0,3,1,1,0,1
+PAC0119,74,Feminino,Zona Norte,Até 1 SM,Fundamental completo,8,3,1,0,0,0,0,0,3,0,0,0,0
+PAC0120,45,Feminino,Zona Oeste,Sem renda,Médio incompleto,3,2,4,0,0,0,0,0,3,0,0,0,0
+PAC0121,66,Masculino,Zona Oeste,2-3 SM,Fundamental completo,7,2,2,1,1,0,1,0,0,1,1,0,1
+PAC0122,75,Masculino,Zona Leste,2-3 SM,Sem escolaridade,9,4,2,0,0,0,0,1,1,1,1,0,0
+PAC0123,30,Masculino,Centro,2-3 SM,Fundamental completo,4,2,2,0,0,0,0,0,2,0,1,0,0
+PAC0124,15,Feminino,Zona Sul,1-2 SM,Médio completo,9,4,5,0,0,1,0,0,3,0,0,0,0
+PAC0125,24,Feminino,Centro,1-2 SM,Fundamental incompleto,4,2,3,1,1,0,0,1,2,1,1,1,1
+PAC0126,38,Masculino,Zona Leste,1-2 SM,Médio incompleto,10,2,4,0,0,0,0,1,2,0,0,1,0
+PAC0127,67,Feminino,Zona Leste,Sem renda,Fundamental incompleto,1,2,3,1,1,0,0,1,1,1,0,0,1
+PAC0128,71,Feminino,Zona Norte,Até 1 SM,Fundamental completo,6,7,0,1,1,1,0,0,1,1,1,0,1
+PAC0129,5,Masculino,Zona Oeste,Até 1 SM,Sem escolaridade,5,5,3,0,0,1,0,1,2,0,0,0,0
+PAC0130,43,Masculino,Zona Sul,Até 1 SM,Fundamental completo,4,5,2,0,1,0,0,0,1,1,1,0,0
+PAC0131,37,Feminino,Zona Norte,1-2 SM,Médio incompleto,6,5,3,0,0,0,0,0,2,0,0,0,0
+PAC0132,23,Feminino,Zona Norte,Até 1 SM,Fundamental incompleto,7,3,3,1,1,0,0,0,1,0,1,0,1
+PAC0133,16,Feminino,Zona Leste,Sem renda,Médio incompleto,0,4,1,0,1,0,0,0,1,1,0,0,0
+PAC0134,31,Feminino,Zona Leste,Até 1 SM,Médio incompleto,2,3,1,0,0,0,0,1,2,0,1,0,0
+PAC0135,79,Masculino,Zona Oeste,1-2 SM,Médio completo,7,2,4,1,0,0,0,0,2,1,0,0,0
+PAC0136,30,Masculino,Zona Oeste,Sem renda,Fundamental incompleto,6,5,0,1,0,0,0,1,2,1,0,0,1
+PAC0137,44,Feminino,Zona Norte,2-3 SM,Fundamental incompleto,10,3,2,0,1,0,0,1,0,1,0,0,0
+PAC0138,57,Masculino,Zona Oeste,Até 1 SM,Fundamental incompleto,7,4,3,0,0,0,1,1,3,0,0,1,1
+PAC0139,33,Masculino,Zona Norte,Até 1 SM,Médio completo,10,3,1,1,1,1,0,0,2,0,0,0,1
+PAC0140,82,Masculino,Zona Oeste,1-2 SM,Médio completo,7,2,0,1,0,1,1,1,2,0,0,0,1
+PAC0141,81,Masculino,Zona Oeste,1-2 SM,Fundamental completo,3,5,3,1,1,0,0,0,2,0,0,0,1
+PAC0142,25,Masculino,Zona Leste,Até 1 SM,Médio incompleto,1,2,2,1,0,0,0,0,1,0,0,0,0
+PAC0143,43,Masculino,Zona Oeste,1-2 SM,Fundamental completo,7,2,1,1,1,0,0,1,3,1,0,0,1
+PAC0144,29,Masculino,Zona Sul,1-2 SM,Fundamental completo,6,3,2,1,0,0,0,0,2,1,1,1,1
+PAC0145,28,Masculino,Zona Leste,Até 1 SM,Sem escolaridade,0,3,1,1,1,1,0,0,2,0,0,0,1
+PAC0146,8,Feminino,Zona Oeste,2-3 SM,Médio incompleto,4,6,0,0,0,0,0,1,1,0,0,0,0
+PAC0147,50,Feminino,Zona Leste,1-2 SM,Fundamental incompleto,10,1,2,1,0,1,1,0,3,1,0,0,1
+PAC0148,43,Feminino,Zona Sul,1-2 SM,Médio incompleto,5,5,0,0,0,1,0,1,3,0,0,0,0
+PAC0149,9,Feminino,Zona Leste,2-3 SM,Médio incompleto,4,1,3,0,1,0,1,0,1,0,0,1,1
+PAC0150,27,Feminino,Zona Oeste,2-3 SM,Médio incompleto,4,4,2,1,0,0,1,0,1,1,0,1,1
+PAC0151,76,Masculino,Zona Sul,1-2 SM,Sem escolaridade,2,2,4,0,1,0,0,0,3,1,1,0,0
+PAC0152,24,Feminino,Zona Norte,1-2 SM,Fundamental incompleto,4,3,1,1,0,0,0,0,2,0,0,0,0
+PAC0153,18,Feminino,Zona Oeste,1-2 SM,Fundamental incompleto,4,3,0,0,1,0,0,0,3,1,0,0,0
+PAC0154,42,Feminino,Zona Oeste,1-2 SM,Fundamental incompleto,1,3,0,1,1,0,1,1,2,0,0,0,1
+PAC0155,83,Masculino,Zona Norte,1-2 SM,Sem escolaridade,7,4,4,1,1,1,0,0,2,1,0,0,1
+PAC0156,25,Masculino,Zona Norte,1-2 SM,Médio completo,4,0,0,1,0,0,0,1,2,0,0,0,0
+PAC0157,55,Masculino,Zona Norte,Até 1 SM,Fundamental completo,8,4,5,0,0,0,0,0,1,0,1,1,0
+PAC0158,62,Masculino,Zona Sul,2-3 SM,Fundamental incompleto,8,0,0,0,0,0,1,0,2,1,0,0,0
+PAC0159,24,Feminino,Zona Leste,2-3 SM,Fundamental incompleto,2,6,3,1,0,0,0,1,3,0,0,1,1
+PAC0160,59,Feminino,Zona Oeste,Sem renda,Fundamental incompleto,6,7,2,0,1,0,0,1,1,1,0,0,1
+PAC0161,33,Masculino,Zona Leste,1-2 SM,Fundamental completo,5,6,1,1,1,1,0,0,2,1,1,0,1
+PAC0162,52,Feminino,Zona Leste,Sem renda,Fundamental completo,9,5,1,1,1,0,1,1,2,1,0,1,1
+PAC0163,52,Feminino,Zona Sul,Até 1 SM,Médio completo,2,2,1,0,0,0,0,1,2,1,0,0,0
+PAC0164,45,Masculino,Zona Oeste,1-2 SM,Fundamental completo,6,1,2,0,1,0,0,0,3,0,0,1,0
+PAC0165,13,Masculino,Zona Leste,Até 1 SM,Médio completo,6,4,3,0,0,0,0,1,3,1,0,0,0
+PAC0166,69,Masculino,Centro,1-2 SM,Médio completo,3,5,2,1,1,1,1,0,0,0,1,0,1
+PAC0167,30,Masculino,Zona Leste,1-2 SM,Fundamental incompleto,2,4,3,0,0,0,0,1,3,0,0,1,0
+PAC0168,21,Masculino,Zona Norte,Até 1 SM,Médio completo,6,3,3,0,0,1,1,1,3,1,0,0,1
+PAC0169,8,Masculino,Zona Leste,Sem renda,Fundamental incompleto,7,6,1,0,0,0,0,1,3,0,1,1,1
+PAC0170,49,Masculino,Zona Sul,Até 1 SM,Médio incompleto,3,2,2,1,1,0,0,0,2,0,0,1,1
+PAC0171,55,Masculino,Zona Leste,1-2 SM,Fundamental incompleto,6,4,2,0,1,0,0,0,3,0,0,0,0
+PAC0172,6,Feminino,Zona Norte,2-3 SM,Médio completo,4,4,2,0,0,0,1,1,1,0,0,0,0
+PAC0173,44,Masculino,Zona Norte,1-2 SM,Médio completo,7,3,4,1,0,0,0,0,1,1,0,0,1
+PAC0174,24,Feminino,Zona Oeste,Até 1 SM,Médio incompleto,2,8,1,1,0,1,1,0,3,0,0,0,1
+PAC0175,53,Masculino,Zona Norte,1-2 SM,Médio incompleto,9,0,0,1,1,0,0,1,1,0,1,0,1
+PAC0176,20,Feminino,Zona Oeste,Até 1 SM,Fundamental incompleto,3,4,1,0,0,0,0,0,0,1,0,0,0
+PAC0177,56,Masculino,Zona Sul,1-2 SM,Sem escolaridade,4,2,2,0,1,0,0,0,3,0,0,0,0
+PAC0178,35,Masculino,Zona Leste,Sem renda,Fundamental incompleto,1,2,0,1,1,0,0,0,3,0,1,0,1
+PAC0179,78,Feminino,Zona Leste,1-2 SM,Fundamental incompleto,1,1,1,0,1,0,0,0,1,0,0,0,0
+PAC0180,17,Feminino,Zona Leste,Até 1 SM,Médio incompleto,5,2,0,1,0,0,0,1,3,0,0,0,1
+PAC0181,32,Feminino,Zona Sul,2-3 SM,Fundamental incompleto,3,7,2,1,1,0,0,1,2,0,0,0,1
+PAC0182,15,Masculino,Zona Norte,Até 1 SM,Médio completo,8,1,2,0,1,0,1,0,2,1,1,1,1
+PAC0183,77,Masculino,Zona Norte,1-2 SM,Fundamental completo,0,2,3,1,0,0,0,1,3,0,1,0,1
+PAC0184,73,Feminino,Zona Sul,2-3 SM,Médio incompleto,4,3,0,1,1,0,0,1,2,1,1,0,1
+PAC0185,26,Feminino,Zona Leste,Sem renda,Fundamental incompleto,3,5,5,0,1,0,0,1,1,1,1,0,0
+PAC0186,54,Feminino,Centro,2-3 SM,Médio completo,0,3,5,1,0,0,0,0,1,1,0,0,0
+PAC0187,67,Feminino,Zona Oeste,1-2 SM,Médio completo,1,4,1,0,0,1,0,1,2,0,0,1,0
+PAC0188,47,Masculino,Zona Oeste,Sem renda,Fundamental completo,4,6,4,0,0,0,0,0,2,0,1,0,0
+PAC0189,45,Feminino,Zona Oeste,Até 1 SM,Fundamental completo,5,3,2,0,1,0,0,1,3,0,0,0,0
+PAC0190,25,Masculino,Zona Leste,1-2 SM,Médio incompleto,4,3,3,1,0,0,0,1,3,1,0,0,0
+PAC0191,13,Masculino,Zona Sul,Sem renda,Fundamental incompleto,5,3,2,1,1,0,0,0,2,0,0,0,1
+PAC0192,75,Masculino,Centro,1-2 SM,Fundamental completo,6,2,3,1,1,1,0,1,3,0,0,0,1
+PAC0193,75,Feminino,Zona Leste,Até 1 SM,Fundamental incompleto,0,3,2,0,1,0,0,0,1,0,1,0,0
+PAC0194,52,Masculino,Zona Leste,1-2 SM,Fundamental incompleto,4,6,2,1,0,1,0,1,0,0,0,0,1
+PAC0195,31,Masculino,Zona Norte,Sem renda,Fundamental incompleto,10,2,2,0,1,1,0,0,3,0,0,0,1
+PAC0196,32,Feminino,Zona Sul,2-3 SM,Sem escolaridade,5,3,2,1,0,0,0,1,0,0,1,1,1
+PAC0197,59,Masculino,Zona Leste,2-3 SM,Sem escolaridade,6,1,0,0,0,0,0,0,1,0,0,0,0
+PAC0198,75,Feminino,Zona Oeste,2-3 SM,Fundamental incompleto,3,2,4,0,1,0,0,0,2,0,0,0,0
+PAC0199,74,Masculino,Zona Leste,1-2 SM,Médio completo,7,3,4,0,0,0,0,0,2,0,0,0,0
+PAC0200,63,Feminino,Zona Sul,Sem renda,Fundamental completo,7,8,1,1,1,0,0,0,3,1,1,0,1
+PAC0201,53,Feminino,Centro,1-2 SM,Médio completo,5,6,3,0,0,0,0,0,1,0,0,1,0
+PAC0202,12,Masculino,Zona Norte,Sem renda,Fundamental incompleto,10,4,0,1,0,0,0,1,0,0,1,0,1
+PAC0203,19,Masculino,Zona Sul,Sem renda,Fundamental incompleto,1,5,2,0,0,0,0,0,1,0,0,0,0
+PAC0204,75,Masculino,Zona Norte,Até 1 SM,Fundamental completo,0,3,0,0,1,0,0,0,2,0,0,0,0
+PAC0205,50,Masculino,Zona Oeste,Até 1 SM,Fundamental incompleto,7,1,3,1,1,1,1,0,2,1,1,0,1
+PAC0206,5,Feminino,Centro,1-2 SM,Fundamental incompleto,8,8,2,1,1,0,0,1,2,0,1,0,1
+PAC0207,14,Masculino,Zona Sul,1-2 SM,Fundamental completo,1,3,1,1,0,1,0,1,3,1,0,0,1
+PAC0208,54,Feminino,Zona Oeste,Até 1 SM,Fundamental incompleto,3,5,0,0,0,0,1,1,3,1,0,0,0
+PAC0209,5,Masculino,Zona Sul,Até 1 SM,Fundamental completo,0,3,0,0,1,0,0,1,1,1,1,0,0
+PAC0210,19,Feminino,Centro,2-3 SM,Médio incompleto,3,2,4,0,0,0,0,0,2,0,1,0,0
+PAC0211,46,Feminino,Zona Oeste,Até 1 SM,Fundamental incompleto,7,3,2,1,0,0,0,0,2,0,1,0,1
+PAC0212,56,Feminino,Zona Oeste,Até 1 SM,Sem escolaridade,5,2,2,1,1,0,0,0,3,1,1,1,1
+PAC0213,53,Feminino,Zona Norte,Até 1 SM,Médio incompleto,3,3,3,1,0,0,0,1,3,0,0,0,0
+PAC0214,23,Masculino,Centro,1-2 SM,Fundamental completo,4,0,5,1,1,1,1,1,1,1,0,0,1
+PAC0215,58,Masculino,Zona Oeste,1-2 SM,Sem escolaridade,0,3,3,0,1,0,0,0,2,1,0,0,0
+PAC0216,24,Feminino,Zona Sul,Até 1 SM,Médio completo,3,3,0,1,0,0,0,0,2,1,0,0,0
+PAC0217,30,Feminino,Zona Oeste,Sem renda,Sem escolaridade,6,1,0,1,0,1,0,0,0,0,0,0,1
+PAC0218,60,Feminino,Zona Sul,1-2 SM,Médio incompleto,10,1,2,1,0,1,0,0,0,1,0,0,1
+PAC0219,53,Masculino,Zona Oeste,1-2 SM,Médio completo,8,1,2,0,1,0,0,1,2,1,0,0,0
+PAC0220,70,Feminino,Zona Norte,Até 1 SM,Fundamental incompleto,0,2,2,0,1,0,1,0,2,1,0,0,0
+PAC0221,54,Feminino,Zona Oeste,2-3 SM,Fundamental incompleto,9,5,3,0,0,1,1,1,0,0,0,0,1
+PAC0222,47,Masculino,Zona Leste,Até 1 SM,Fundamental incompleto,7,4,0,0,0,0,0,0,2,0,0,0,0
+PAC0223,13,Masculino,Zona Norte,Até 1 SM,Fundamental incompleto,7,4,0,0,1,0,1,1,1,0,0,0,1
+PAC0224,33,Feminino,Zona Norte,2-3 SM,Fundamental incompleto,4,4,3,0,1,0,0,1,2,0,0,0,0
+PAC0225,26,Feminino,Zona Norte,Até 1 SM,Médio incompleto,4,2,2,1,0,1,0,1,1,0,0,0,1
+PAC0226,25,Feminino,Zona Leste,1-2 SM,Sem escolaridade,3,2,3,0,0,0,0,1,1,1,1,0,0
+PAC0227,82,Masculino,Zona Sul,Até 1 SM,Fundamental completo,1,4,1,0,0,1,0,1,2,0,0,0,0
+PAC0228,35,Feminino,Zona Leste,Até 1 SM,Médio completo,2,4,3,0,1,0,0,1,1,1,0,0,0
+PAC0229,74,Masculino,Zona Sul,2-3 SM,Médio incompleto,3,3,3,1,1,1,0,1,2,0,0,0,1
+PAC0230,52,Masculino,Zona Sul,Até 1 SM,Fundamental completo,5,1,1,1,0,0,0,1,1,0,0,0,1
+PAC0231,65,Masculino,Zona Oeste,2-3 SM,Fundamental incompleto,7,4,3,1,1,0,0,1,2,0,0,0,1
+PAC0232,43,Feminino,Zona Norte,Até 1 SM,Fundamental completo,5,4,4,0,0,1,0,1,1,0,1,0,1
+PAC0233,48,Feminino,Centro,Até 1 SM,Fundamental completo,1,5,2,1,0,0,1,1,2,1,1,0,1
+PAC0234,42,Feminino,Zona Oeste,Sem renda,Fundamental incompleto,10,3,1,0,0,0,0,1,3,0,0,0,0
+PAC0235,21,Masculino,Zona Leste,1-2 SM,Fundamental incompleto,9,1,4,0,1,0,0,0,1,0,0,1,0
+PAC0236,58,Feminino,Zona Leste,Até 1 SM,Médio completo,7,8,1,0,0,0,0,0,2,0,1,1,0
+PAC0237,27,Masculino,Zona Oeste,2-3 SM,Fundamental incompleto,10,4,1,0,1,0,0,0,0,1,1,0,0
+PAC0238,7,Feminino,Zona Norte,Até 1 SM,Fundamental incompleto,5,6,3,0,0,0,0,0,2,0,0,0,0
+PAC0239,53,Masculino,Zona Norte,2-3 SM,Fundamental incompleto,10,1,1,1,0,0,0,1,1,0,0,0,1
+PAC0240,20,Masculino,Zona Norte,Até 1 SM,Fundamental incompleto,1,2,4,1,0,0,0,0,2,0,0,0,0
+PAC0241,79,Feminino,Zona Oeste,2-3 SM,Médio incompleto,4,4,3,0,1,0,0,1,2,0,0,0,0
+PAC0242,80,Masculino,Zona Norte,1-2 SM,Médio incompleto,2,2,0,1,0,0,0,0,3,0,0,0,0
+PAC0243,76,Feminino,Zona Leste,1-2 SM,Médio incompleto,2,7,2,0,1,1,0,0,2,1,0,0,0
+PAC0244,34,Feminino,Centro,1-2 SM,Sem escolaridade,2,4,3,0,0,0,0,1,2,0,0,0,0
+PAC0245,6,Masculino,Zona Oeste,1-2 SM,Fundamental incompleto,6,4,2,1,0,0,0,1,2,0,0,0,1
+PAC0246,78,Feminino,Zona Leste,1-2 SM,Fundamental completo,7,1,1,1,0,1,0,0,3,0,1,0,1
+PAC0247,38,Masculino,Zona Norte,Sem renda,Sem escolaridade,5,2,4,0,0,0,0,1,3,0,1,0,0
+PAC0248,81,Feminino,Zona Oeste,Sem renda,Fundamental incompleto,2,5,1,0,0,1,0,1,1,0,0,0,0
+PAC0249,81,Feminino,Zona Leste,2-3 SM,Médio incompleto,8,0,1,1,0,1,1,0,3,1,1,0,1
+PAC0250,70,Feminino,Zona Norte,1-2 SM,Fundamental incompleto,6,1,0,1,1,1,0,0,2,1,0,0,1
+PAC0251,28,Masculino,Zona Norte,1-2 SM,Fundamental completo,4,0,3,1,1,0,0,1,3,1,1,1,1
+PAC0252,35,Feminino,Centro,Até 1 SM,Fundamental incompleto,6,3,0,0,0,1,0,0,3,1,0,1,0
+PAC0253,70,Feminino,Zona Leste,Sem renda,Sem escolaridade,3,3,2,0,0,1,0,0,1,0,0,0,0
+PAC0254,30,Masculino,Zona Oeste,Sem renda,Fundamental incompleto,3,4,1,0,0,0,0,0,2,0,0,0,0
+PAC0255,20,Masculino,Zona Oeste,1-2 SM,Médio completo,9,2,1,0,0,0,1,1,1,0,0,0,1
+PAC0256,47,Feminino,Zona Leste,Até 1 SM,Médio incompleto,3,4,2,1,0,0,1,1,1,0,1,0,1
+PAC0257,78,Feminino,Zona Leste,Até 1 SM,Médio completo,4,8,4,1,1,0,0,1,1,0,0,0,1
+PAC0258,56,Feminino,Zona Sul,Até 1 SM,Fundamental completo,9,3,4,0,0,0,0,0,2,0,0,1,0
+PAC0259,48,Feminino,Zona Sul,Sem renda,Fundamental incompleto,7,1,3,1,0,0,0,1,1,1,0,0,1
+PAC0260,14,Feminino,Zona Sul,1-2 SM,Fundamental completo,1,4,4,1,0,0,0,0,0,1,0,0,0
+PAC0261,51,Masculino,Zona Oeste,Até 1 SM,Fundamental completo,2,1,1,0,0,0,0,0,2,1,0,0,0
+PAC0262,84,Masculino,Zona Leste,1-2 SM,Médio incompleto,0,4,2,1,1,0,0,0,1,1,0,0,0
+PAC0263,18,Masculino,Zona Oeste,Até 1 SM,Sem escolaridade,6,3,1,1,0,0,0,0,1,0,0,0,0
+PAC0264,44,Feminino,Zona Sul,Até 1 SM,Fundamental completo,4,3,1,1,0,1,0,1,1,0,1,0,1
+PAC0265,73,Masculino,Zona Leste,Sem renda,Fundamental incompleto,2,5,4,0,1,0,0,1,2,1,1,0,0
+PAC0266,60,Feminino,Zona Leste,Sem renda,Fundamental incompleto,10,4,2,1,0,0,0,0,2,0,0,0,0
+PAC0267,56,Feminino,Zona Leste,Até 1 SM,Médio incompleto,5,1,0,1,1,0,0,1,0,0,0,0,1
+PAC0268,57,Feminino,Zona Oeste,Até 1 SM,Fundamental completo,3,1,3,0,1,0,0,1,3,0,0,0,0
+PAC0269,33,Masculino,Zona Norte,1-2 SM,Fundamental incompleto,5,8,1,0,0,1,1,1,2,0,0,1,1
+PAC0270,28,Feminino,Zona Leste,Até 1 SM,Fundamental incompleto,6,4,2,1,1,1,0,0,1,0,0,0,1
+PAC0271,66,Masculino,Zona Norte,1-2 SM,Fundamental completo,1,4,2,0,0,0,0,1,1,0,1,1,0
+PAC0272,66,Feminino,Zona Sul,2-3 SM,Médio incompleto,3,5,0,1,1,1,0,0,2,0,0,0,1
+PAC0273,72,Masculino,Zona Leste,1-2 SM,Médio completo,8,0,2,1,0,0,0,1,2,1,1,0,1
+PAC0274,76,Masculino,Zona Leste,Sem renda,Médio completo,4,4,5,0,0,0,0,0,1,0,1,0,0
+PAC0275,43,Feminino,Centro,Até 1 SM,Médio incompleto,5,2,2,0,1,0,0,1,1,0,1,0,0
+PAC0276,43,Masculino,Zona Leste,Sem renda,Fundamental incompleto,4,3,3,1,1,1,1,0,3,0,1,1,1
+PAC0277,65,Masculino,Zona Oeste,Até 1 SM,Médio incompleto,0,1,0,0,1,0,0,0,1,0,0,1,0
+PAC0278,53,Feminino,Zona Leste,2-3 SM,Fundamental incompleto,2,5,2,1,1,0,0,1,2,1,0,0,1
+PAC0279,57,Feminino,Zona Leste,Sem renda,Fundamental incompleto,4,3,1,1,0,1,0,1,3,1,0,0,1
+PAC0280,65,Feminino,Zona Norte,Até 1 SM,Médio incompleto,2,7,3,1,0,0,1,1,2,1,0,0,1
+PAC0281,74,Feminino,Zona Sul,1-2 SM,Sem escolaridade,0,3,2,1,0,0,0,1,1,0,0,1,1
+PAC0282,31,Feminino,Zona Sul,1-2 SM,Médio completo,8,1,1,1,0,1,1,0,2,0,0,0,1
+PAC0283,34,Masculino,Zona Leste,1-2 SM,Fundamental completo,10,1,2,0,0,0,1,0,0,0,0,0,0
+PAC0284,13,Masculino,Zona Norte,Sem renda,Fundamental completo,8,6,1,1,1,0,0,0,2,0,1,0,1
+PAC0285,48,Masculino,Zona Norte,Até 1 SM,Médio incompleto,8,3,2,1,0,0,1,0,2,0,1,0,1
+PAC0286,8,Feminino,Zona Sul,Até 1 SM,Médio completo,3,3,5,0,0,0,1,1,3,0,0,1,0
+PAC0287,40,Feminino,Centro,Sem renda,Fundamental completo,10,2,3,0,0,0,0,1,3,0,0,0,0
+PAC0288,46,Masculino,Zona Sul,Até 1 SM,Fundamental completo,2,5,4,1,1,0,0,1,3,1,0,0,1
+PAC0289,28,Feminino,Zona Leste,Sem renda,Sem escolaridade,10,5,2,0,1,0,0,1,3,0,0,0,0
+PAC0290,49,Feminino,Zona Norte,Sem renda,Fundamental completo,10,4,2,1,1,0,0,1,2,1,1,0,1
+PAC0291,7,Masculino,Zona Leste,Até 1 SM,Fundamental incompleto,7,3,0,1,0,1,0,0,2,0,0,0,1
+PAC0292,8,Feminino,Zona Sul,Sem renda,Médio incompleto,10,2,2,0,1,1,0,0,2,0,0,0,1
+PAC0293,67,Feminino,Zona Norte,1-2 SM,Fundamental completo,5,3,1,1,0,0,0,1,2,1,1,1,1
+PAC0294,33,Feminino,Zona Leste,1-2 SM,Médio incompleto,3,2,1,0,1,0,0,0,3,1,1,0,0
+PAC0295,16,Masculino,Zona Norte,1-2 SM,Sem escolaridade,4,5,2,0,1,1,0,0,1,0,0,0,0
+PAC0296,44,Feminino,Zona Norte,Até 1 SM,Sem escolaridade,6,4,3,1,0,0,1,0,3,0,0,0,1
+PAC0297,62,Feminino,Zona Norte,Até 1 SM,Médio incompleto,1,3,1,0,0,0,0,1,3,0,0,0,0
+PAC0298,23,Feminino,Zona Norte,Sem renda,Sem escolaridade,6,4,2,1,1,1,0,0,3,0,0,1,1
+PAC0299,51,Feminino,Zona Norte,1-2 SM,Sem escolaridade,10,6,1,1,0,1,0,1,3,1,0,0,1
+PAC0300,12,Feminino,Zona Sul,1-2 SM,Sem escolaridade,2,4,2,1,1,1,0,1,1,1,0,0,1
+PAC0301,9,Feminino,Zona Oeste,Sem renda,Médio completo,8,6,1,0,0,1,1,0,1,0,0,0,1
+PAC0302,45,Masculino,Zona Leste,2-3 SM,Médio incompleto,9,1,1,0,0,0,0,1,1,0,0,0,0
+PAC0303,46,Feminino,Zona Leste,Sem renda,Fundamental incompleto,9,3,3,1,0,0,0,1,1,0,0,0,1
+PAC0304,52,Feminino,Zona Sul,Até 1 SM,Fundamental incompleto,10,3,3,1,0,0,1,1,2,0,0,1,1
+PAC0305,59,Masculino,Centro,1-2 SM,Fundamental incompleto,5,2,1,1,0,0,1,1,3,1,0,0,1
+PAC0306,82,Feminino,Zona Sul,2-3 SM,Médio incompleto,10,3,0,1,0,0,0,0,3,1,0,0,1
+PAC0307,44,Feminino,Zona Norte,1-2 SM,Médio incompleto,7,8,3,0,1,1,0,1,2,0,1,0,1
+PAC0308,30,Feminino,Zona Leste,1-2 SM,Fundamental incompleto,2,5,3,0,0,1,0,0,0,0,0,0,0
+PAC0309,65,Masculino,Zona Norte,Até 1 SM,Fundamental incompleto,5,3,3,1,1,0,0,1,1,0,1,0,1
+PAC0310,27,Masculino,Zona Sul,1-2 SM,Sem escolaridade,7,5,0,0,1,1,0,1,0,0,0,1,1
+PAC0311,38,Feminino,Zona Leste,Sem renda,Médio incompleto,3,2,0,0,1,1,0,1,2,1,0,0,0
+PAC0312,12,Feminino,Zona Oeste,2-3 SM,Médio incompleto,6,2,0,1,0,0,1,0,2,0,0,0,1
+PAC0313,7,Masculino,Zona Leste,Até 1 SM,Fundamental incompleto,6,5,4,0,0,0,0,0,0,0,0,0,0
+PAC0314,81,Feminino,Zona Oeste,1-2 SM,Sem escolaridade,2,2,1,0,0,0,0,0,1,0,0,0,0
+PAC0315,69,Feminino,Centro,Até 1 SM,Sem escolaridade,5,5,3,0,1,0,1,0,1,1,0,0,1
+PAC0316,56,Feminino,Zona Norte,1-2 SM,Médio completo,7,1,0,1,1,0,0,0,2,0,0,1,1
+PAC0317,36,Feminino,Zona Sul,Até 1 SM,Fundamental incompleto,5,3,0,1,0,0,1,0,2,1,0,0,1
+PAC0318,20,Masculino,Zona Sul,1-2 SM,Médio incompleto,0,3,4,1,0,0,1,0,2,1,0,1,1
+PAC0319,19,Masculino,Zona Sul,Sem renda,Fundamental completo,0,1,1,1,1,0,0,1,2,1,0,0,1
+PAC0320,25,Masculino,Zona Sul,Sem renda,Fundamental incompleto,4,2,2,0,0,1,0,0,3,0,0,0,0
+PAC0321,46,Feminino,Centro,Até 1 SM,Fundamental incompleto,9,5,4,1,1,0,0,1,1,0,0,0,1
+PAC0322,58,Masculino,Zona Oeste,Até 1 SM,Fundamental incompleto,2,2,1,0,1,1,0,1,2,0,0,0,1
+PAC0323,54,Masculino,Zona Leste,2-3 SM,Fundamental completo,6,5,0,0,1,0,0,0,2,0,0,0,0
+PAC0324,27,Masculino,Zona Sul,Até 1 SM,Médio incompleto,2,2,1,1,0,0,0,1,2,0,0,0,1
+PAC0325,80,Feminino,Zona Oeste,2-3 SM,Fundamental completo,3,5,2,1,0,1,1,0,3,0,0,0,1
+PAC0326,59,Feminino,Centro,Até 1 SM,Fundamental completo,8,1,1,0,1,0,0,1,2,0,1,0,0
+PAC0327,47,Masculino,Zona Oeste,Até 1 SM,Sem escolaridade,7,5,1,0,1,0,0,0,2,1,0,1,0
+PAC0328,51,Masculino,Zona Norte,1-2 SM,Médio completo,1,4,1,1,0,1,0,0,0,0,0,0,1
+PAC0329,37,Feminino,Zona Leste,1-2 SM,Médio incompleto,4,4,3,0,0,0,0,1,2,0,0,1,0
+PAC0330,25,Masculino,Zona Norte,Até 1 SM,Fundamental incompleto,0,5,1,0,1,0,1,0,1,1,0,0,1
+PAC0331,33,Masculino,Zona Sul,1-2 SM,Médio completo,5,4,1,0,1,0,0,1,1,1,0,0,0
+PAC0332,61,Masculino,Zona Norte,1-2 SM,Fundamental completo,6,3,3,0,1,1,0,0,2,1,0,0,0
+PAC0333,6,Masculino,Zona Leste,Até 1 SM,Fundamental completo,1,3,1,1,1,0,0,0,2,1,0,0,0
+PAC0334,15,Masculino,Zona Leste,2-3 SM,Médio incompleto,3,3,2,0,0,0,0,0,0,1,0,1,0
+PAC0335,9,Feminino,Zona Norte,2-3 SM,Médio incompleto,4,7,0,0,0,0,0,0,2,0,0,0,0
+PAC0336,8,Masculino,Zona Sul,1-2 SM,Médio incompleto,9,4,1,1,1,0,0,0,2,0,0,1,1
+PAC0337,71,Feminino,Zona Leste,Até 1 SM,Fundamental incompleto,10,4,3,1,1,1,0,0,1,0,0,1,1
+PAC0338,57,Masculino,Zona Sul,1-2 SM,Fundamental incompleto,0,0,1,0,0,0,1,0,2,0,0,0,0
+PAC0339,41,Feminino,Zona Norte,Sem renda,Médio completo,7,4,4,0,0,0,1,1,2,0,0,1,1
+PAC0340,14,Feminino,Zona Sul,Sem renda,Fundamental incompleto,4,5,2,0,1,0,0,0,2,0,0,0,0
+PAC0341,42,Masculino,Zona Oeste,Até 1 SM,Fundamental incompleto,4,4,0,1,0,1,1,1,2,0,0,1,1
+PAC0342,41,Feminino,Zona Norte,Até 1 SM,Fundamental incompleto,7,0,4,1,0,0,0,0,1,0,0,0,0
+PAC0343,20,Masculino,Zona Norte,2-3 SM,Fundamental incompleto,9,3,2,1,1,1,0,1,2,0,0,0,1
+PAC0344,38,Feminino,Zona Sul,1-2 SM,Fundamental completo,10,4,1,1,1,1,0,0,3,1,1,1,1
+PAC0345,36,Masculino,Centro,1-2 SM,Médio completo,5,5,1,1,1,0,0,0,2,0,0,0,1
+PAC0346,51,Masculino,Zona Leste,Até 1 SM,Fundamental incompleto,4,0,2,1,0,0,0,0,0,1,0,0,0
+PAC0347,52,Masculino,Zona Leste,Até 1 SM,Fundamental incompleto,7,9,1,1,1,0,0,0,2,0,0,0,1
+PAC0348,9,Feminino,Zona Sul,Até 1 SM,Fundamental incompleto,3,2,2,0,1,1,0,1,3,1,0,0,0
+PAC0349,34,Feminino,Zona Leste,2-3 SM,Médio completo,5,4,2,1,1,0,0,0,0,1,0,0,0
+PAC0350,52,Feminino,Zona Norte,Sem renda,Fundamental completo,4,1,1,0,1,0,0,1,3,1,1,0,0
+PAC0351,43,Masculino,Zona Leste,2-3 SM,Fundamental incompleto,6,2,1,0,0,1,0,0,3,1,0,0,0
+PAC0352,71,Feminino,Centro,1-2 SM,Médio incompleto,3,3,5,1,0,0,1,0,0,0,0,0,1
+PAC0353,54,Masculino,Zona Leste,Até 1 SM,Médio completo,2,4,1,0,0,0,0,1,3,1,0,0,0
+PAC0354,19,Feminino,Zona Oeste,1-2 SM,Médio incompleto,9,4,6,1,0,0,0,0,2,1,1,0,1
+PAC0355,11,Masculino,Zona Oeste,Até 1 SM,Médio completo,1,6,4,1,1,0,0,1,3,1,0,0,1
+PAC0356,53,Masculino,Zona Norte,2-3 SM,Fundamental incompleto,5,3,2,0,1,1,0,0,2,1,0,0,0
+PAC0357,7,Masculino,Centro,2-3 SM,Médio incompleto,2,4,1,1,1,0,0,1,2,0,0,1,1
+PAC0358,49,Feminino,Zona Norte,Até 1 SM,Fundamental completo,0,4,1,0,1,0,0,0,2,1,0,0,0
+PAC0359,79,Feminino,Zona Leste,Até 1 SM,Médio incompleto,0,8,3,0,0,1,1,1,3,0,0,0,1
+PAC0360,48,Masculino,Zona Norte,1-2 SM,Médio incompleto,2,4,2,1,0,0,0,1,0,0,0,1,1
+PAC0361,35,Feminino,Zona Norte,2-3 SM,Médio incompleto,8,5,1,1,0,1,1,0,2,0,0,0,1
+PAC0362,53,Masculino,Zona Sul,Até 1 SM,Médio incompleto,3,2,4,1,0,1,0,0,1,1,0,0,1
+PAC0363,40,Feminino,Zona Sul,1-2 SM,Fundamental incompleto,10,6,2,0,0,0,0,0,1,0,0,0,0
+PAC0364,46,Masculino,Zona Leste,1-2 SM,Fundamental completo,5,3,1,1,1,0,1,1,1,0,0,1,1
+PAC0365,79,Masculino,Zona Leste,1-2 SM,Médio completo,4,2,3,0,1,1,0,0,2,0,0,0,0
+PAC0366,35,Feminino,Zona Norte,Sem renda,Médio completo,5,7,2,1,0,0,0,0,1,1,1,0,1
+PAC0367,81,Masculino,Zona Norte,1-2 SM,Sem escolaridade,5,6,4,0,0,0,0,0,1,0,0,0,0
+PAC0368,75,Masculino,Zona Leste,2-3 SM,Fundamental incompleto,7,2,4,1,1,1,1,0,1,0,1,0,1
+PAC0369,21,Feminino,Zona Sul,Até 1 SM,Fundamental incompleto,3,4,1,0,0,0,0,1,0,0,1,0,0
+PAC0370,11,Feminino,Zona Oeste,Até 1 SM,Médio incompleto,4,5,4,0,1,1,0,1,2,1,0,0,0
+PAC0371,14,Masculino,Zona Leste,2-3 SM,Médio incompleto,9,5,0,1,1,0,0,0,3,1,0,0,1
+PAC0372,6,Masculino,Zona Oeste,Até 1 SM,Fundamental incompleto,9,2,3,1,1,0,1,1,1,1,0,0,1
+PAC0373,13,Feminino,Zona Leste,2-3 SM,Fundamental completo,9,4,3,1,0,0,0,0,3,0,0,0,0
+PAC0374,56,Masculino,Zona Sul,Até 1 SM,Médio incompleto,4,4,2,1,1,1,0,0,2,1,0,0,1
+PAC0375,11,Masculino,Zona Leste,Até 1 SM,Médio incompleto,7,5,3,1,0,0,0,0,2,0,0,0,1
+PAC0376,30,Masculino,Zona Sul,2-3 SM,Fundamental completo,5,4,1,1,1,1,0,1,2,0,0,1,1
+PAC0377,70,Feminino,Zona Sul,Até 1 SM,Fundamental completo,5,2,4,0,0,0,0,1,3,0,0,0,0
+PAC0378,7,Feminino,Zona Oeste,Até 1 SM,Fundamental completo,2,4,3,1,0,0,0,1,1,0,0,0,0
+PAC0379,67,Masculino,Zona Sul,Até 1 SM,Fundamental incompleto,6,4,0,0,1,0,0,0,2,1,1,1,0
+PAC0380,27,Masculino,Zona Oeste,1-2 SM,Fundamental completo,2,0,2,1,1,0,0,0,2,0,0,0,1
+PAC0381,15,Masculino,Zona Oeste,Até 1 SM,Médio incompleto,3,4,1,1,1,0,1,0,2,0,1,0,1
+PAC0382,56,Feminino,Zona Oeste,Até 1 SM,Médio completo,8,5,0,1,1,0,0,1,3,0,0,0,1
+PAC0383,52,Masculino,Centro,2-3 SM,Fundamental completo,2,2,3,1,1,0,1,1,0,0,1,0,1
+PAC0384,73,Masculino,Zona Sul,Até 1 SM,Médio incompleto,1,5,1,1,0,1,0,1,2,0,0,1,1
+PAC0385,59,Feminino,Zona Sul,1-2 SM,Fundamental incompleto,1,4,1,1,1,0,1,0,2,0,0,0,1
+PAC0386,66,Masculino,Zona Leste,Até 1 SM,Fundamental completo,9,6,1,0,1,1,0,0,2,0,0,0,1
+PAC0387,27,Feminino,Zona Sul,1-2 SM,Sem escolaridade,5,1,4,1,1,0,0,0,1,1,0,0,1
+PAC0388,20,Masculino,Zona Leste,Sem renda,Fundamental incompleto,4,2,3,0,1,0,1,0,2,1,1,0,0
+PAC0389,61,Masculino,Zona Oeste,2-3 SM,Médio incompleto,8,0,0,1,0,0,1,0,3,1,0,0,1
+PAC0390,66,Masculino,Zona Leste,Até 1 SM,Médio completo,8,4,1,0,1,0,0,0,2,0,1,0,0
+PAC0391,84,Feminino,Zona Sul,Até 1 SM,Sem escolaridade,3,3,4,0,0,0,0,0,3,1,0,0,0
+PAC0392,37,Feminino,Zona Norte,Sem renda,Fundamental incompleto,7,2,2,0,0,0,0,1,2,1,0,0,0
+PAC0393,34,Feminino,Zona Sul,Até 1 SM,Médio incompleto,7,3,1,0,1,0,0,1,1,1,1,1,0
+PAC0394,63,Masculino,Zona Norte,Até 1 SM,Fundamental incompleto,6,2,2,1,0,1,0,0,0,0,0,0,1
+PAC0395,32,Feminino,Zona Oeste,Até 1 SM,Fundamental completo,2,1,1,0,1,0,0,0,0,0,0,0,0
+PAC0396,78,Masculino,Zona Sul,1-2 SM,Médio incompleto,9,1,3,1,0,1,1,0,2,1,1,0,1
+PAC0397,71,Masculino,Zona Norte,Até 1 SM,Fundamental completo,5,7,3,0,0,0,0,1,1,0,1,0,0
+PAC0398,38,Feminino,Zona Norte,Até 1 SM,Fundamental incompleto,3,7,6,1,1,0,0,1,2,0,1,0,1
+PAC0399,61,Masculino,Zona Leste,1-2 SM,Fundamental incompleto,4,4,1,1,1,0,0,1,2,0,1,0,1
+PAC0400,61,Masculino,Zona Leste,1-2 SM,Médio incompleto,0,0,3,1,1,0,0,1,0,0,0,0,1
+PAC0401,14,Masculino,Zona Sul,Até 1 SM,Fundamental completo,1,3,1,1,1,0,0,0,1,1,1,0,1
+PAC0402,75,Masculino,Zona Norte,Até 1 SM,Sem escolaridade,7,1,4,0,1,0,0,0,1,0,0,1,0
+PAC0403,43,Masculino,Zona Sul,Sem renda,Médio incompleto,0,2,2,1,0,0,0,0,2,0,1,0,0
+PAC0404,68,Feminino,Zona Sul,1-2 SM,Sem escolaridade,4,1,3,0,0,0,1,0,1,1,0,0,0
+PAC0405,30,Masculino,Zona Leste,1-2 SM,Médio incompleto,5,3,1,1,0,0,0,1,1,0,0,0,1
+PAC0406,74,Feminino,Zona Leste,Até 1 SM,Fundamental incompleto,1,4,2,1,1,0,0,0,3,0,0,0,0
+PAC0407,35,Feminino,Zona Sul,1-2 SM,Médio completo,10,2,2,0,1,0,0,0,3,0,0,0,0
+PAC0408,6,Masculino,Zona Norte,1-2 SM,Fundamental incompleto,2,2,2,1,0,1,1,0,1,1,0,1,1
+PAC0409,75,Masculino,Centro,1-2 SM,Fundamental incompleto,3,3,1,1,1,1,0,1,2,0,1,0,1
+PAC0410,13,Masculino,Zona Leste,2-3 SM,Fundamental incompleto,3,2,4,0,1,0,0,0,2,1,1,0,0
+PAC0411,30,Feminino,Zona Leste,Até 1 SM,Fundamental incompleto,3,4,1,0,0,1,0,1,3,0,0,0,0
+PAC0412,80,Masculino,Zona Norte,Sem renda,Médio completo,0,3,1,0,0,1,1,0,2,0,0,1,1
+PAC0413,80,Feminino,Zona Leste,Até 1 SM,Médio completo,7,7,2,1,1,0,0,0,1,0,0,0,1
+PAC0414,48,Masculino,Zona Norte,Sem renda,Fundamental incompleto,10,3,2,1,1,0,0,0,2,0,0,0,1
+PAC0415,52,Feminino,Zona Leste,Até 1 SM,Fundamental incompleto,2,2,5,0,1,1,1,1,2,1,0,0,1
+PAC0416,39,Masculino,Centro,2-3 SM,Médio incompleto,6,5,0,0,0,0,0,0,1,1,1,0,0
+PAC0417,28,Masculino,Zona Sul,Sem renda,Médio completo,7,2,0,1,1,1,0,1,2,0,0,0,1
+PAC0418,31,Feminino,Zona Norte,Sem renda,Fundamental completo,8,1,2,1,0,0,0,0,2,0,0,0,0
+PAC0419,55,Feminino,Zona Norte,Até 1 SM,Fundamental incompleto,4,4,1,0,0,0,0,0,1,1,0,0,0
+PAC0420,61,Masculino,Zona Sul,2-3 SM,Fundamental incompleto,3,3,4,0,1,0,0,1,1,0,0,0,0
+PAC0421,64,Feminino,Zona Norte,Até 1 SM,Médio incompleto,3,4,4,1,0,0,0,0,2,0,0,1,0
+PAC0422,64,Feminino,Zona Norte,Até 1 SM,Sem escolaridade,7,3,2,0,1,1,0,1,0,1,0,0,1
+PAC0423,13,Feminino,Zona Oeste,Sem renda,Fundamental completo,8,5,1,0,0,1,0,1,3,0,0,1,0
+PAC0424,42,Feminino,Zona Leste,Sem renda,Fundamental incompleto,2,3,1,1,1,0,1,0,1,1,0,0,1
+PAC0425,10,Masculino,Zona Sul,2-3 SM,Médio incompleto,4,3,4,1,1,0,0,1,0,0,1,0,1
+PAC0426,46,Masculino,Centro,2-3 SM,Sem escolaridade,9,1,1,0,0,1,0,0,2,1,0,0,0
+PAC0427,39,Masculino,Zona Norte,Sem renda,Fundamental completo,8,3,8,0,1,0,0,0,3,0,0,0,0
+PAC0428,74,Feminino,Centro,2-3 SM,Fundamental completo,10,4,0,0,0,0,0,0,3,0,0,0,0
+PAC0429,32,Feminino,Zona Sul,1-2 SM,Fundamental completo,7,2,1,0,1,0,0,1,2,0,1,0,0
+PAC0430,15,Masculino,Zona Oeste,2-3 SM,Sem escolaridade,4,3,3,1,0,1,0,0,1,0,0,0,1
+PAC0431,18,Masculino,Zona Leste,Até 1 SM,Fundamental completo,6,2,1,0,0,1,1,1,2,0,1,0,1
+PAC0432,62,Feminino,Zona Oeste,Até 1 SM,Fundamental completo,6,3,3,1,0,0,0,1,2,0,0,0,1
+PAC0433,51,Feminino,Centro,Até 1 SM,Fundamental completo,1,2,2,1,0,0,1,0,1,0,0,0,1
+PAC0434,14,Feminino,Zona Sul,1-2 SM,Fundamental completo,5,1,2,0,1,1,1,0,3,1,0,0,1
+PAC0435,12,Masculino,Centro,Sem renda,Médio incompleto,7,2,1,0,0,0,0,0,1,0,0,0,0
+PAC0436,57,Masculino,Zona Sul,Sem renda,Médio incompleto,2,3,2,1,0,0,0,0,3,0,0,0,0
+PAC0437,11,Masculino,Zona Sul,Até 1 SM,Fundamental incompleto,7,5,0,1,0,0,1,0,3,0,0,1,1
+PAC0438,67,Feminino,Zona Sul,1-2 SM,Médio incompleto,5,3,1,1,0,1,1,1,2,0,1,1,1
+PAC0439,57,Masculino,Zona Leste,Até 1 SM,Fundamental completo,10,6,0,0,1,0,0,1,3,0,1,0,1
+PAC0440,12,Feminino,Zona Norte,1-2 SM,Sem escolaridade,0,2,5,1,1,0,0,1,2,0,0,0,1
+PAC0441,12,Masculino,Zona Leste,2-3 SM,Sem escolaridade,3,6,4,1,0,0,0,1,1,1,0,0,1
+PAC0442,83,Feminino,Zona Leste,Sem renda,Fundamental incompleto,6,6,3,1,1,0,1,1,2,0,0,0,1
+PAC0443,34,Feminino,Zona Oeste,1-2 SM,Médio incompleto,3,8,1,0,1,0,0,0,0,0,0,0,0
+PAC0444,34,Feminino,Zona Oeste,Até 1 SM,Médio incompleto,7,1,2,1,0,0,0,1,2,1,0,0,1
+PAC0445,66,Masculino,Zona Sul,2-3 SM,Médio incompleto,7,5,1,1,1,0,1,1,2,1,1,0,1
+PAC0446,79,Masculino,Zona Sul,Até 1 SM,Fundamental completo,1,3,4,0,1,0,0,0,2,0,1,0,0
+PAC0447,83,Masculino,Zona Sul,1-2 SM,Fundamental incompleto,5,6,1,1,1,0,0,1,1,1,0,0,1
+PAC0448,61,Feminino,Zona Norte,1-2 SM,Fundamental incompleto,5,5,0,0,1,0,0,0,2,0,1,0,0
+PAC0449,34,Feminino,Zona Norte,2-3 SM,Fundamental incompleto,4,1,3,0,0,1,1,1,3,1,0,0,1
+PAC0450,12,Feminino,Zona Sul,1-2 SM,Fundamental incompleto,9,0,1,0,1,1,0,1,0,0,0,0,1
+PAC0451,63,Feminino,Zona Sul,Até 1 SM,Sem escolaridade,8,2,3,1,1,0,0,1,2,1,0,1,1
+PAC0452,47,Feminino,Centro,1-2 SM,Fundamental incompleto,7,5,0,0,0,1,0,0,1,1,0,0,0
+PAC0453,37,Masculino,Zona Leste,2-3 SM,Fundamental completo,7,6,2,1,1,0,0,1,2,0,0,0,1
+PAC0454,75,Feminino,Zona Sul,1-2 SM,Médio incompleto,4,3,2,1,0,1,0,0,1,0,0,0,1
+PAC0455,15,Masculino,Zona Leste,Sem renda,Médio completo,9,5,1,0,1,0,0,0,2,0,0,0,0
+PAC0456,42,Masculino,Zona Norte,2-3 SM,Médio completo,7,3,3,1,1,0,0,1,1,0,0,0,1
+PAC0457,6,Feminino,Zona Sul,1-2 SM,Fundamental completo,7,3,3,1,0,0,1,1,1,0,1,0,1
+PAC0458,41,Masculino,Zona Leste,1-2 SM,Fundamental incompleto,8,2,1,1,0,0,1,1,3,0,0,0,1
+PAC0459,10,Masculino,Zona Leste,Até 1 SM,Fundamental completo,3,1,1,1,1,1,0,0,0,0,0,1,1
+PAC0460,16,Feminino,Zona Sul,1-2 SM,Médio incompleto,8,8,3,1,0,0,0,0,2,0,0,0,1
+PAC0461,15,Masculino,Centro,Até 1 SM,Fundamental incompleto,2,2,1,0,0,0,0,1,0,0,0,1,0
+PAC0462,53,Feminino,Zona Oeste,1-2 SM,Fundamental incompleto,3,4,0,1,0,0,1,0,2,0,0,0,1
+PAC0463,60,Masculino,Zona Leste,Sem renda,Médio incompleto,3,7,1,0,0,1,0,0,2,0,1,1,0
+PAC0464,49,Masculino,Zona Leste,1-2 SM,Fundamental incompleto,10,5,3,1,0,0,0,1,1,1,0,0,1
+PAC0465,81,Masculino,Zona Leste,2-3 SM,Fundamental completo,8,3,4,0,0,0,0,0,1,0,1,0,0
+PAC0466,34,Masculino,Zona Norte,Sem renda,Fundamental completo,7,2,2,1,0,1,0,1,2,0,0,0,1
+PAC0467,28,Feminino,Zona Sul,2-3 SM,Fundamental incompleto,7,3,0,1,1,0,0,0,2,1,0,0,1
+PAC0468,72,Masculino,Zona Norte,Até 1 SM,Fundamental incompleto,5,5,2,1,1,0,0,0,3,1,1,0,1
+PAC0469,23,Feminino,Zona Leste,2-3 SM,Fundamental incompleto,9,3,1,0,0,1,0,0,2,0,1,0,0
+PAC0470,81,Feminino,Zona Leste,1-2 SM,Sem escolaridade,5,3,3,0,0,0,0,0,2,1,1,1,0
+PAC0471,6,Feminino,Zona Norte,1-2 SM,Sem escolaridade,4,5,2,1,1,0,0,0,1,0,0,1,1
+PAC0472,82,Feminino,Centro,1-2 SM,Médio incompleto,2,1,2,1,0,0,0,0,1,1,1,0,0
+PAC0473,9,Feminino,Centro,2-3 SM,Fundamental incompleto,7,3,2,0,0,1,0,0,1,0,1,0,0
+PAC0474,74,Masculino,Zona Oeste,Até 1 SM,Fundamental completo,7,2,0,1,0,0,0,0,1,0,1,0,1
+PAC0475,45,Masculino,Zona Leste,Até 1 SM,Fundamental incompleto,4,1,3,1,1,1,0,0,1,0,0,0,1
+PAC0476,84,Masculino,Zona Oeste,1-2 SM,Médio completo,0,2,2,0,1,1,0,0,2,1,0,0,0
+PAC0477,11,Feminino,Zona Norte,1-2 SM,Fundamental incompleto,8,1,0,1,1,0,0,0,2,0,1,0,1
+PAC0478,46,Masculino,Zona Oeste,1-2 SM,Fundamental incompleto,0,3,2,1,1,1,0,1,3,0,0,1,1
+PAC0479,82,Feminino,Zona Norte,1-2 SM,Médio completo,7,4,2,1,1,0,0,1,1,0,0,0,1
+PAC0480,44,Feminino,Zona Oeste,Até 1 SM,Médio incompleto,10,2,2,0,0,0,0,1,2,1,0,0,0
+PAC0481,52,Masculino,Zona Sul,1-2 SM,Fundamental incompleto,4,8,2,1,1,1,1,0,3,1,0,0,1
+PAC0482,56,Feminino,Zona Oeste,Sem renda,Médio incompleto,3,5,3,1,0,1,0,1,2,0,0,0,1
+PAC0483,40,Masculino,Centro,Até 1 SM,Fundamental completo,7,5,1,0,1,0,0,1,1,0,0,0,0
+PAC0484,52,Masculino,Zona Norte,Sem renda,Fundamental completo,8,3,2,1,1,0,0,1,1,0,1,0,1
+PAC0485,49,Feminino,Zona Leste,Até 1 SM,Fundamental incompleto,5,0,2,1,1,0,0,0,0,0,0,0,1
+PAC0486,75,Feminino,Centro,Até 1 SM,Sem escolaridade,10,3,3,1,0,0,0,1,1,1,0,0,1
+PAC0487,9,Feminino,Zona Leste,Até 1 SM,Médio incompleto,1,4,2,0,0,0,0,1,2,0,0,0,0
+PAC0488,27,Masculino,Zona Oeste,1-2 SM,Fundamental completo,5,6,4,1,1,0,0,1,0,0,0,0,1
+PAC0489,80,Masculino,Zona Leste,Até 1 SM,Fundamental incompleto,7,4,2,1,1,0,0,0,1,0,0,0,1
+PAC0490,74,Feminino,Zona Sul,Até 1 SM,Médio incompleto,8,3,1,0,1,0,0,0,2,0,0,0,0
+PAC0491,40,Feminino,Zona Sul,Até 1 SM,Médio incompleto,2,2,1,0,0,0,1,0,3,0,0,0,0
+PAC0492,51,Feminino,Zona Norte,Até 1 SM,Fundamental incompleto,8,2,0,1,1,1,1,0,2,0,1,0,1
+PAC0493,27,Masculino,Zona Oeste,Até 1 SM,Fundamental completo,5,2,2,1,1,1,0,1,2,0,0,0,1
+PAC0494,21,Feminino,Zona Sul,Sem renda,Fundamental incompleto,4,4,4,0,1,0,0,0,2,0,0,1,0
+PAC0495,40,Masculino,Zona Leste,1-2 SM,Médio incompleto,2,1,1,1,1,0,0,0,1,0,0,0,1
+PAC0496,32,Masculino,Zona Leste,1-2 SM,Médio incompleto,8,5,0,0,1,0,0,0,2,0,0,1,0
+PAC0497,49,Feminino,Zona Leste,1-2 SM,Médio completo,2,6,2,1,1,0,0,0,2,0,0,0,1
+PAC0498,12,Masculino,Zona Oeste,Até 1 SM,Sem escolaridade,3,6,0,1,1,0,0,0,3,1,1,0,1
+PAC0499,82,Feminino,Centro,Até 1 SM,Sem escolaridade,3,3,0,1,1,1,0,1,0,0,0,1,1
+PAC0500,83,Masculino,Zona Sul,2-3 SM,Fundamental incompleto,9,6,3,0,0,0,0,1,2,0,0,0,1
